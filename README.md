@@ -47,4 +47,4 @@ Each more or less focuses on one specific aspect of oracles functionality:
 Tradle will use mechinisms above and add two innovations to make smart contracts simple:
 
 * a) non-developer (DIY) contracts. Simple rule based UI designed to be used on mobiles, so that no developer is needed as an intermediary to make and read contracts. The complexity of programming is moved to data and a growing number of functions defined on data.
-* b) data unification. We use a visual data modeling framework and a data mapping engine, developed over the last decade, to make web data accessible to algorithms.
+* b) data unification. We use a visual data modeling framework and a data mapping engine, developed over the last decade, to make web data accessible to smart contracts.
