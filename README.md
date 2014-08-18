@@ -40,7 +40,10 @@ oracle consensus - Orisi uses N of M multi-sig to work around the compromised or
 proof of untempered execution. bitcoin core developer Gregory Maxwell proposed [Coinwitness](https://bitcointalk.org/index.php?topic=277389.0), he claims it can replace current bitcoin's script with an off-chain program. Bitcoin nodes will then change, so "Instead of everyone checking that a transaction was permitted to be spent, they'd instead check that you checked." he says.
 communicating decisions to chain: Reality Keys issues 2 private keys - for true and false. 
 rendezvous and communication. Oracles need to discover each other, users need to be able to discover oracles. A mix of techniques used by bitcoin nodes, like DNS seeds, broadcasting known nodes, etc., can be employed.
-shameless Trade plug:
-a) non-developer contracts. Tradle uses IFTTT-like UI so that no developer is needed as an intermediary to make and read contracts.
-b) data unification - key to make contracts simple.
+
+Tradle adds to that:
+
+* a) non-developer contracts. Tradle uses IFTTT-like UI so that no developer is needed as an intermediary to make and read contracts.
+* 
+* b) data unification - key to make contracts simple.
 Adam Back & Austin Hill's new sidechains startup may allow oracles as full nodes in a sidechain.
