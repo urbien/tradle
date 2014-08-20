@@ -3,6 +3,22 @@ Tradle
 
 decentralized automatic trading of traditional and crypto assets, a form of a Tradenet
 
+What Tradenet will do
+======================
+The main principle of a Tradenet is a programmable trade, where user is in control, user does the programming. Tradle will make it possible to express complex rules in a simple way.
+
+Some areas where user will do the programming:
+
+* smart contracts
+* algo-trading, e,g.: price arbitrage, fundamentals, trend following, event-driven trading
+* discovering e-commerce opportunities - auto-comparative shopping
+* e-commerce syndication (after market -> e-commerce site)
+* e-commerce securitization
+* automatic auctions: between car and the garages
+* energy usage and trade: smart thermostat, solar panels
+
+Help me out, can you add other scenarious to this list?
+
 Introduction
 ============
 
