@@ -5,7 +5,7 @@ decentralized automatic trading of traditional and crypto assets, a form of a Tr
 
 What Tradenet will do
 ======================
-The main principle of a Tradenet is a programmable trade, where user is in control, user does the programming. Tradle will make it possible to express complex rules in a simple way.
+The main principle of a Tradenet is a programmable trade, where user is in control, user does the programming. Tradle will make it possible to express complex rules in a simple way and execute the trades based on these rules through Tradenet on user's behalf.
 
 Some areas where user will do the programming:
 
