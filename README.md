@@ -5,34 +5,35 @@ decentralized automatic trading of traditional and crypto assets, a form of a Tr
 
 What Tradenet will do
 ======================
-The main principle of a Tradenet is a programmable trade, where user is in control, user does the programming. Tradle will make it possible to express complex rules in a simple way and execute the trades based on these rules through Tradenet on user's behalf.
+The main principle of a Tradenet is a programmable trade, where user is in control, user does the programming. Tradle will make it possible to express complex rules in a simple way and execute the trades based on these rules via Tradenet on user's behalf.
 
 Some areas where user will do the programming:
 
 * smart contracts
 * algo-trading, e,g.: price arbitrage, fundamentals, trend following, event-driven trading
+* energy usage and trade: smart thermostat, solar panels
+
+Future areas:
+
 * discovering e-commerce opportunities - auto-comparative shopping
 * e-commerce syndication (after market -> e-commerce site)
 * e-commerce securitization
 * automatic auctions: between car and the garages
-* energy usage and trade: smart thermostat, solar panels
-
-Help me out, can you add other scenarious to this list?
 
 Introduction
 ============
 
 I have been fascinated with the concept of Tradenet since I first heard it from [Cameron Gray](http://about.me/cameron.john.gray) in his [Bitcoin Magazine article](http://bitcoinmagazine.com/15021/sovereignty-2-0/). Cameron defines Tradenet as "quantify anything of value so that it can be traded in a decentralized highly competitive frictionless market". His vision somehow reminded me of traders from [Vernor Vinge's Deepness In the Sky](http://en.wikipedia.org/wiki/A_Deepness_in_the_Sky), who used open information as a basis for a galactic trade. I would define Tradenet as an open ledger world commerce. Below I am trying to imagine the tenets of the Tradenet to be.
 
-* Algo-trading. Algorithmic trading traditionally has allowed traders to discover market inefficiencies and profit from them. In the past decade most traditional markets have become fully electronic, while the new bitcoin market was born electronic. This opened the doors to an algorithmic trading revolution. Top Wall Street firms trade 100% algorithmically, yet individuals and smaller firms are largely behind. Trading hours are 24/7 in currency and the emerged crypto-currency markets. Amount of assets traded is skyrocketing. Algo-trading helps human beings navigate this expanding sea. 
+* Algo-trading. In the past decade most capital markets became fully electronic (new bitcoin markets were born electronic from the get go). This opened the doors to an algorithmic trading revolution. Top Wall Street firms trade 100% algorithmically, yet individuals and smaller firms are largely behind. Trading hours are 24/7 in currency and the emerged crypto-currency markets. Amount of assets traded is skyrocketing. Algorithmic trading helps human beings navigate this expanding sea.
 
-* Decentralized stack. Web was born decentralized, but most all financially successful sites have grown into monopolies. The dangers of centralized solution have come into focus after Snowden's revelations. In bitcoin world, whenever a centralized solution emerged on top of a decentralized blockchain, it immediately attracted hackers and regulators. Blockchain is a technology breakthrough that was born out of 20 years of research into decentralized systems. Recently it has inspired thousands of bright minds and hundreds of startups to switch to the decentralized world. A new technology stack is forming around the blockchain, an alternative to today's cloud-based multi-tier solutions.
+* Decentralized Web. Web was born decentralized, but most all financially successful sites have grown into monopolies. The dangers of centralized solution have come into focus after Snowden's revelations. In bitcoin world, whenever a centralized solution emerged on top of a decentralized blockchain, it immediately attracted hackers and regulators. Blockchain is a technology breakthrough that was born out of 20 years of research into decentralized systems. Recently it has inspired thousands of bright minds and hundreds of startups to switch to the decentralized world. A new technology stack is forming around the blockchain, an alternative to today's cloud-based multi-tier solutions.
 
 * Smart contracts. The biggest excitement in bitcoin world is centered around the notion of programmability of money,  with the key concepts being smart contracts and smart properties. A highly hyped new blockchain Ethereum, even has a built-in ability to execute smart contracts, contracts that have funds associated with them, arbitrary code and state. Ethereum's limitation though is that its contracts can not access data from the outside world. Algo-trading is a form of a smart contract that uses outside data called market indicators to make financial decisions.
 
 * Smart data. For decentralized financial applications to bridge the blockchain and the Web, Web sites must become more accessible to the machines. We are tapping into our decade-long research into Semantic Web to build such a bridge, to make data smart. Algo-trading is our first app for the emerging Tradenet. As data become smart, a lot of new smart things become possible, like a thermostat negotiating electricity rates with the energy network, a car negotiating the price with the nearby garages, a Legal Will executed without a lawyer. We define the rules, and machines negotiate and exchange resources on our behalf to get things we need to live in this world.
 
-* We define the rules. This language that defines our agreements became so dense and specialized that we now can not read without intermediaries. It has become the [biggest lie on the Web](https://tosdr.org/) to click 'I agree' on Terms of Service and License agreements. This lack of understanding often puts us at the mercy of lawyers and government officials. Smart contracts promise to free us from this dependency, but if people can not define the rules themselves, they will just replace one set of intermediaries - lawyers, with another - developers. A great web site [IFTTT](https://ifttt.com/) gave non-developers a way to program the Social Web. Tradle visual contract maker inspired by IFTTT allows anyone to create trading algorithms and we are extending it to cover other types of smart contracts. 
+* We define the rules. The language that defines our business agreements became so dense and specialized that we now can not read without intermediaries. It has become the [biggest lie on the Web](https://tosdr.org/) to click 'I agree' on Terms of Service and License agreements. This lack of understanding often puts us at the mercy of lawyers and government officials. Smart contracts promise to free us from this dependency, but if people can not define the rules themselves, they will just replace one set of intermediaries - lawyers, with another - developers. A great web site [IFTTT](https://ifttt.com/) gave non-developers a way to program the Social Web. Tradle visual contract maker inspired by IFTTT allows anyone to create trading algorithms and we are extending it to cover other types of smart contracts. 
 
 
 Problem space
