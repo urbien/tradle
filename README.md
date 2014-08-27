@@ -41,23 +41,25 @@ Problem space
 
 According to bitcoin core developer Gavin Andersen off-chain data and computations is the next bitcoin frontier:  ["all of the really interesting complex contracts I can think of require data from outside the blockchain"](http://gavintech.blogspot.com/2014/06/bit-thereum.html)
 
-Ethereum captured people's imagination on the potential of extended on-chain computations with a crowdsale that is approaching cool $30M. Ethereum's innovations such as per-contract storage, arbitrary scripts, pay forward computations (gas), etc. allows to implement a whole new class of apps. Yet, there is a much larger class of apps that will emerge between the web/cloud and the chain.
+Ethereum captured people's imagination on the potential of extended on-chain computations with a crowdsale that is approaching cool $30M. Ethereum's innovations such as per-contract storage, arbitrary scripts, pay forward computations (gas), etc. allow to implement a whole new class of apps. Yet, there is a much larger class of apps that will emerge between the web/cloud and the chain.
 
-In bitcoin world these apps are traditionally called Oracles. Vitalik in [Ethereum and Oracles](https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/) blog writes: "The most common case that will appear in reality is the case of external data"
+In bitcoin world these apps are traditionally called Oracles. Vitalik in [Ethereum and Oracles](https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/) blog writes: "The most common case that will appear in reality is the case of external data".
 
 There has been a lot of discussions on oracles but only recently several companies released the implementations: Ripple's Codius.org, Orisi, RealityKeys, etc. (Codius whitepaper refers to several more oracles systems).
 
 Each more or less focuses on one specific aspect of oracles functionality:
 
-* sandoxing: to protect host machine, e.g. a miner, from untrusted and possibly mishbehaving contracts. Ripple's new [Codius.org](http://codius.org) uses NaCl - google native client. A Rackspace-sponsored [ZeroVM](http://www.zerovm.org/), an enhanced NaCl could be used instead. Both ZeroVM and NaCl provide deterministic environment to achieve varifiable computations. The goal is to make sure that the the computation, when repeated achieves the same result. This comes at a price, as some things are intentionally blocked in this environment, like access to the outside world. Another, much more more flexible, sandboxing solution [Docker](https://www.docker.com/) has recently become very popular, but it only provides deterministic deployment, not execution. In addition, both NaCl and Docker sandboxes can run inside a full Virtual Machine, like VirtualBox to fully isolate host machine from possibly misbehaving smart contracts.
+* sandoxing: this technique protects host machine, e.g. a miner, from untrusted and possibly mishbehaving contracts. Ripple's new [Codius.org](http://codius.org) uses NaCl - google native client. A Rackspace-sponsored [ZeroVM](http://www.zerovm.org/), an offshoot of the NaCl project, could be used instead. Both ZeroVM and NaCl provide deterministic environment to ensure that repeated compputations achieve identical results. This comes at a price, as some things are intentionally blocked in this environment, like access to the outside world. Another, much more more flexible, sandboxing solution [Docker](https://www.docker.com/) has recently become very popular, but it only provides deterministic deployment, not execution. In addition, both NaCl and Docker sandboxes can run inside a full Virtual Machine, like VirtualBox to fully isolate host machine from possibly misbehaving smart contracts.
 
-* consensus: Orisi uses M of N multi-sig to work around the possibly compromised or unavailable oracles. This replaces "everyone agrees" notion of the blockchain with the "some agree". May be with the Adam Back's sidechains this compromise can be avoided.
- 
-* proof of untempered execution:  In decentralized environment, hosting of apps is done by the untrusted parties. This is in contrast to current cloud settings, where we implicitly trusted Amazon, Google and Microsoft, etc. And with Snowden we have learned that this trust was compromised. So, in building a new distributed cloud, especially the one integrated with a bitcoin financial network we must trust nothing, and rely on cryptographic proofs of data immutability, code immutability, and computation verifiability, applying zero knowledge systems pervasively. 
+* proof of untempered execution:  Sandboxing protects the host, but the opposite is needed too. In decentralized environment, hosting of apps is done by the untrusted parties. This is in contrast to current cloud settings, where we implicitly trusted Amazon, Google and Microsoft, etc. In post-Snowden era we know that this trust was misplaced. So, in building a new distributed cloud, especially the one integrated with a bitcoin financial network we must trust nothing, and rely on cryptographic proofs of data immutability, code immutability, and computation verifiability, applying zero knowledge systems pervasively. A recently invented technique called [zk-SNARKS](http://www.scipr-lab.org/) allows something that is hard to imagine, verify computations without repeating them.
 
-* secure external data: Trusty URIs (hash-URIs), Notary Chains, proofofexistence.com and Reality Keys tackle the question whether we can trust website's data. Hash-URIs of all the data inputs combined with hash-URI of the code can provide verifiability of computations. Any other network node may do the audit, by performing the same computations and verifying the resulting hash-URI. This assumes open source code and open data. The approach can be extended to include private data inputs using the technique called [zk-SNARKS](http://www.scipr-lab.org/). SNARKS magic allows something that is hard to imagine - verify computations without repeating them.
+* secure external data: Trusty URIs (hash-URIs), Notary Chains, proofofexistence.com and Reality Keys tackle the question whether we can trust website's data. Hash-URIs of all the data inputs (including hash-URIs of all dependencies) combined with hash-URI of the code can provide verifiability of public computations. Any other network node may do the audit, by performing the same computations and verifying the resulting hash-URI. Great for open source code and fully open data. If some private inputs (like secret keys, must be included, then zk-SNARKS technique must be used.
 
 * communicating decisions to the chain: Today there are a multitude of solutions based on multisig, split secret, etc. The most promising is Adam Back & Austin Hill's new sidechains startup called Blockstream which will allow oracles to run as nodes in a sidechain, with direct integration into the bitcoin mainchain.
+
+* consensus between oracles: Orisi uses M of N multi-sig to work around the possibly compromised or unavailable oracles. This replaces "everyone agrees" notion of the blockchain with the "some agree". May be with the Adam Back's sidechains this compromise can be avoided.
+
+* user choosing oracle nodes: this is Codius's approach to securing computations by relying on each node's reputation.
 
 * rendezvous and communication. Oracles need to discover each other, users need to be able to discover oracles. A mix of techniques used by bitcoin nodes, like DNS seeds, broadcasting known nodes, etc., can be employed.
 
@@ -65,3 +67,16 @@ Tradle will use mechinisms above and add two innovations to make smart contracts
 
 * a) non-developer (DIY) contracts. Simple rule based UI designed to be used on mobiles, so that no developer is needed as an intermediary to make and read contracts. The complexity of programming is moved to data and a growing number of functions defined on data.
 * b) data unification. We use a visual data modeling framework and a data mapping engine, developed over the last decade, to make web data accessible to smart contracts.
+
+
+Tradenet: oracle and data nodes 
+============================================================
+
+Tradle app compiles a tradle into A JavaScript code, which is executed by the oracle. Oracle subscribes to events from data nodes and when they arrive, it passes the inputs to the tradle code. This way tradle code can be simple and verifiable.
+
+* 1. Specifically, oracle reads tradle definition and sends tradle URI as a subscription request to the Data node, and waits for the events on websockets. A tradle may have several input indicators, so oracle will get subscribed to several event types. To compensate for reboots and re-connections in a subscription request oracle says: give me new 'if-modified since' for each tradle indicator. Oracle saves retrieved indicators into its local database and then calls the tradle code.
+
+* 2. Data Server publishes every event with hash-URI and sends it to Notary Chains. Oracle verifies each event's data URI with the Notary Chains. 
+
+* 3. Each Data node may provide different indicators. Indicator URI reflects the node it is coming from, e.g. http://server1.tradle.io. Thus oracle may send a subscription to several data nodes. If all indicators are on the same server, it sends one request with 3 indicators in it.
+
