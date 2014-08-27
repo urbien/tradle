@@ -74,9 +74,9 @@ Tradenet: oracle and data nodes
 
 Tradle app compiles a tradle into A JavaScript code, which is executed by the oracle. Oracle subscribes to events from data nodes and when they arrive, it passes the inputs to the tradle code. This way tradle code can be simple and verifiable.
 
-* 1. Specifically, oracle reads tradle definition and sends tradle URI as a subscription request to the Data node, and waits for the events on websockets. A tradle may have several input indicators, so oracle will get subscribed to several event types. To compensate for reboots and re-connections in a subscription request oracle says: give me new 'if-modified since' for each tradle indicator. Oracle saves retrieved indicators into its local database and then calls the tradle code.
+* Subscription. Specifically, oracle reads tradle definition and sends tradle URI as a subscription request to the Data node, and waits for the events on websockets. A tradle may have several input indicators, so oracle will get subscribed to several event types. To compensate for reboots and re-connections in a subscription request oracle says: give me new 'if-modified since' for each tradle indicator.
 
-* 2. Data Server publishes every event with hash-URI and sends it to Notary Chains. Oracle verifies each event's data URI with the Notary Chains. 
+* Verification. Data Server publishes every event with hash-URI and sends it to Notary Chains. Oracle verifies each event's data URI with the Notary Chains. 
 
-* 3. Each Data node may provide different indicators. Indicator URI reflects the node it is coming from, e.g. http://server1.tradle.io. Thus oracle may send a subscription to several data nodes. If all indicators are on the same server, it sends one request with 3 indicators in it.
+* Synchronization. Each Data node may provide different indicators. Indicator URI reflects the node it is coming from, e.g. http://server1.tradle.io. Thus oracle may send a subscription to several data nodes (if all indicators are on the same server, it sends one request with 3 indicators in it). Events in each indicator come at a different time. Oracle saves retrieved indicators into its local database. This way when any event arrives oracle can call tradle code with all the values of other indicators it saved before.
 
