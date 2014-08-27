@@ -80,3 +80,7 @@ Tradle app compiles a tradle into A JavaScript code, which is executed by the or
 
 * Synchronization. Each Data node may provide different indicators. Indicator URI reflects the node it is coming from, e.g. http://server1.tradle.io. Thus oracle may send a subscription to several data nodes (if all indicators are on the same server, it sends one request with 3 indicators in it). Events in each indicator come at a different time. Oracle saves retrieved indicators into its local database. This way when any event arrives oracle can call tradle code with all the values of other indicators it saved before.
 
+Tradenet: oracle and blockchain
+===============================
+
+Each tradle has a trade, which defines what assets to trade, in what quantities and at what prices. JavaScript tradle code does not have access to this information. Neither does oracle. Oracle tells user's wallet to execute a trade. Wallet has all the keys to access user accounts and sign transactions.
