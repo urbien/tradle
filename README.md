@@ -5,30 +5,30 @@ Creation of a tradenet, programmable global trade of digitized assets for the be
 
 What Tradenet will do
 ======================
-If algorithmic trading on capital markets is any indication any trading activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments. Tradenet will use freely exchangeable digital tokens/coins to create new incentive systems and new forms of corporate structures.
+Bitcoin opened a new way of exchanging value. We believe this will transform the trade globally. If algorithmic trading on capital markets is any indication, all trade activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments. Tradenet will use freely exchangeable digital tokens/coins to create new incentive systems and new forms of corporate structures.
 
-Some early applications of Tradenet will include:
+Some early applications of Tradenet will be:
 
-* smart contracts, most talked about in botcoin community
+* smart contracts, most talked about application now in bitcoin community
 * algorithmic trading
 * energy usage and trade: smart thermostat, solar panels
 * share-a-ride and other resource share schemes, especially with dynamic pricing
 
 Future areas:
 
+* securitization of everything, your back yard, your roof, etc.
 * discovering e-commerce opportunities - auto-comparative shopping
-* e-commerce syndication (after market -> e-commerce site)
-* e-commerce securitization
+* e-commerce syndication (after market integration into e-commerce site)
 * automatic auctions: between car and the garages 
 
 Motivation
 ==========
 
-Web was born decentralized, but most all financially successful sites have grown into the monopolies. The dire concequences of this centralization have come into focus after Snowden's revelations. In bitcoin world, whenever a centralized solution emerged on top of a decentralized blockchain, it immediately attracted the hackers and regulators. In our current finance system systemic abuse of trust became a norm. Just note the multibillion dollar fines that banks were hit with in 2014 for deceptive activities that led to the US and global financial meltdown.
+Internet was born decentralized, but most all financially successful sites have grown into monopolies. The dire concequences of this centralization have come into focus after Snowden's revelations. In bitcoin world, whenever a centralized solution emerged on top of a decentralized blockchain, it immediately attracted the hackers and regulators. In our current finance system [systemic abuse of trust became a norm](http://topics.nytimes.com/top/reference/timestopics/subjects/l/london_interbank_offered_rate_libor/index.html). Just note the multibillion dollar fines that banks were hit with in 2014 for deceptive activities that led to the US and global financial meltdown. 
 
 We need a technology that is decentralized and can operate in a fashion which requires no trust in operators. Blockchain is a technology breakthrough that was born out of 20 years of research into such trustless systems. Its open ledger has inspired thousands of bright minds and hundreds of startups to dare to rethink the very structures of our economy and democracy. A new technology stack is forming around the blockchain, with the ability to represent a world with digitized assets, creating a foundation for gloval programmable trade. Programmable trade will greatly reduce the amount of delegation of personal powers to the intermediaries.
 
-But we have to be careful. As "software eats the world" we increasingly begin to trust a new representative, this time a developer. To avoid creating a new subtle layer of trust and retain our personal power, we must be able to program the key aspects of the trade ourselves. Tradle will make it possible to express complex trade rules in a simple way.
+But we have to be careful. As [software is eating the world](http://online.wsj.com/news/articles/SB10001424053111903480904576512250915629460) we increasingly begin to trust a new representative, this time a developer. To avoid creating a new subtle layer of trust and retain our personal power, we must be able to program the key aspects of the trade ourselves. Tradle will make it possible to express complex trade rules in a simple way.
 
 
 Introduction
