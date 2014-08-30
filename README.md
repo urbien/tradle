@@ -18,7 +18,14 @@ Future areas:
 * discovering e-commerce opportunities - auto-comparative shopping
 * e-commerce syndication (after market -> e-commerce site)
 * e-commerce securitization
-* automatic auctions: between car and the garages
+* automatic auctions: between car and the garages 
+
+Motivation
+==========
+
+Web was born decentralized, but most all financially successful sites have grown into monopolies. The dangers of centralized solution have come into focus after Snowden's revelations. In bitcoin world, whenever a centralized solution emerged on top of a decentralized blockchain, it immediately attracted hackers and regulators. In our current finance system systemic abuse of trust became a norm. Just note the multibillion dollar fines that banks were hit with in 2014 for deceptive activities that led to a US and global financial meltdown.
+
+We need a tech that is decentralized and can operate in a trustless fashion. Blockchain is a technology breakthrough that was born out of 20 years of research into decentralized trustless financial systems. Its open ledger has inspired thousands of bright minds and hundreds of startups to dare to rethink the structures of economy and democracy. A new technology stack is forming around the blockchain, where the ability to represent a world as with digitized assets creates a foundation for programmable trade.
 
 Introduction
 ============
@@ -26,8 +33,6 @@ Introduction
 I have been fascinated with the concept of Tradenet since I first heard it from [Cameron Gray](http://about.me/cameron.john.gray) in his [Bitcoin Magazine article](http://bitcoinmagazine.com/15021/sovereignty-2-0/). Cameron defines Tradenet as "quantify anything of value so that it can be traded in a decentralized highly competitive frictionless market". His vision somehow reminded me of traders from [Vernor Vinge's Deepness In the Sky](http://en.wikipedia.org/wiki/A_Deepness_in_the_Sky), who used open information as a basis for a galactic trade. I would define Tradenet as an open ledger world commerce. Below I am trying to imagine the tenets of the Tradenet to be.
 
 * Algo-trading. In the past decade most capital markets became fully electronic (new bitcoin markets were born electronic from the get go). This opened the doors to an algorithmic trading revolution. Top Wall Street firms trade 100% algorithmically, yet individuals and smaller firms are largely behind. Trading hours are 24/7 in currency and the emerged crypto-currency markets. Amount of assets traded is skyrocketing. Algorithmic trading helps human beings navigate this expanding sea.
-
-* Decentralized Web. Web was born decentralized, but most all financially successful sites have grown into monopolies. The dangers of centralized solution have come into focus after Snowden's revelations. In bitcoin world, whenever a centralized solution emerged on top of a decentralized blockchain, it immediately attracted hackers and regulators. Blockchain is a technology breakthrough that was born out of 20 years of research into decentralized systems. Recently it has inspired thousands of bright minds and hundreds of startups to switch to the decentralized world. A new technology stack is forming around the blockchain, an alternative to today's cloud-based multi-tier solutions.
 
 * Smart contracts. The biggest excitement in bitcoin world is centered around the notion of programmability of money,  with the key concepts being smart contracts and smart properties. A highly hyped new blockchain Ethereum, even has a built-in ability to execute smart contracts, contracts that have funds associated with them, arbitrary code and state. Ethereum's limitation though is that its contracts can not access data from the outside world. Algo-trading is a form of a smart contract that uses outside data called market indicators to make financial decisions.
 
