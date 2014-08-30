@@ -30,6 +30,12 @@ We need a technology that is decentralized and can operate in a fashion which re
 
 But we have to be careful. As [software is eating the world](http://online.wsj.com/news/articles/SB10001424053111903480904576512250915629460) we increasingly begin to trust a new representative, this time a developer. To avoid creating a new subtle layer of trust and retain our personal power, we must be able to program the key aspects of the trade ourselves. Tradle will make it possible to express complex trade rules in a simple way.
 
+Backstory 
+=========
+The idea of programmable tradle is new, but a more general idea of programmable web has been around since the early 2000. We have seen the spikes of excitement around mashable sites, Facebook platform and declared the age of the APIs to arrive, at least 5 times already. The achievement of RESTful methodology notwithstanding, the key ingredient of programmable Web is still eluding us. The greatest last push to add this ingredient was the Semantic Web initiative of Time Berners Lee at W3C. I and my core team have been so fascinated with the promise of Semantic Web in the early 2000 that we left our lucrative corporate jobs and have for over a decade been building systems that operated on a core principle "Web for humans and machines". In any of the dozens of applications we built, anything that user could see and do in the UI could be accessed and modified by the programs via a single data-centric Web API.
+
+We have built complex value chains with independent companies coordinating their trading activity across 20+ countries with decentralized network of corporate web databases. This included ordering of millions of tons of products, tracking multi-modal transportation across continents and organizing invoicing and payments, without a centralized system, while creating a unified trading information field. This expertise and code we built during this time should come pretty handy as bitcoin/tradenet apply pressure to make any Web site a programmable Web database. 
+
 
 Introduction
 ============
@@ -94,10 +100,4 @@ Tradenet: oracle and blockchain
 
 Each tradle has a trade, which defines what assets to trade, in what quantities and at what prices. JavaScript tradle code does not have access to this information. Neither does oracle. Oracle tells user's wallet to execute a trade. Wallet has all the keys to access user accounts and sign transactions.
 
-
-Backstory 
-=========
-The idea of programmable tradle is new, but a more general idea of programmable web has been around since the early 2000. We have seen the spikes of excitement around mashable sites, Facebook platform and declared the age of the APIs to arrive, at least 5 times already. The achievement of RESTful methodology notwithstanding, the key ingredient of programmable Web is still eluding us. The greatest last push to add this ingredient was the Semantic Web initiative of Time Berners Lee at W3C. I and my core team have been so fascinated with the promise of Semantic Web in the early 2000 that we left our lucrative corporate jobs and have for over a decade been building systems that operated on a core principle "Web for humans and machines". In any of the dozens of applications we built, anything that user could see and do in the UI could be accessed and modified by the programs via a single data-centric Web API.
-
-We have built complex value chains with independent companies coordinating their trading activity across 20+ countries with decentralized network of corporate web databases. This included ordering of millions of tons of products, tracking multi-modal transportation across continents and organizing invoicing and payments, without a centralized system, while creating a unified trading information field. This expertise and code we built during this time should come pretty handy as bitcoin/tradenet apply pressure to make any Web site a programmable Web database. 
 
