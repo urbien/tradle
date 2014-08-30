@@ -5,7 +5,7 @@ Creation of a tradenet, programmable global trade of digitized assets for the be
 
 What Tradenet will do
 ======================
-Bitcoin opened a new way of exchanging value. We believe this will transform the trade globally. If algorithmic trading on capital markets is any indication, all trade activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments. Tradenet will use freely exchangeable digital tokens/coins to create new incentive systems and new forms of corporate structures.
+Bitcoin opened new ways of exchanging value. We believe this breakthrough will transform the trade globally. If algorithmic trading on capital markets is any indication, all trade activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments. Tradenet will use freely exchangeable digital tokens/coins to create new incentive systems and new forms of corporate structures.
 
 Some early applications of Tradenet will be:
 
