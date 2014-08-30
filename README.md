@@ -91,3 +91,8 @@ Tradenet: oracle and blockchain
 ===============================
 
 Each tradle has a trade, which defines what assets to trade, in what quantities and at what prices. JavaScript tradle code does not have access to this information. Neither does oracle. Oracle tells user's wallet to execute a trade. Wallet has all the keys to access user accounts and sign transactions.
+
+
+Backstory 
+=========
+The idea of programmable tradle is new, but a more general idea of programmable web has been around since early 2000. We have seen the spikes of excitement around mashable sites, Facebook platform and declared the age of the APIs to arrive, at least 5 times already. Yet the key ingredient of programmable web is still eluding us. The greatest attempt to add this ingredient was with Semantic Web. I and my core team have been so fascinated with the promise of Semantic Web in the early 2000 that we left our lucrative corporate jobs and have for over a decade been building systems that operated on a core principle - Web for humans and machines. Anything that user could see and do in our UIs could be accessed and modified by the programs via a single data-centric API.
