@@ -1,17 +1,18 @@
-Tradle
-======
+Tradle's mission
+================
 
-decentralized automatic trading of traditional and crypto assets, a form of a Tradenet
+Creation of a tradenet, programmable global trade of digitized assets for the betterment of mankind
 
 What Tradenet will do
 ======================
-The main principle of a Tradenet is a programmable trade, where user is in control, user does the programming. Tradle will make it possible to express complex rules in a simple way and execute the trades based on these rules via Tradenet on user's behalf.
+If algorithmic trading on capital markets is any indication any trading activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments. Tradenet will use freely exchangeable digital tokens/coins to create new incentive systems and new forms of corporate structures.
 
-Some areas where user will do the programming:
+Some early applications of Tradenet will include:
 
-* smart contracts
-* algo-trading, e,g.: price arbitrage, fundamentals, trend following, event-driven trading
+* smart contracts, most talked about in botcoin community
+* algorithmic trading
 * energy usage and trade: smart thermostat, solar panels
+* share-a-ride and other resource share schemes, especially with dynamic pricing
 
 Future areas:
 
@@ -27,7 +28,8 @@ Web was born decentralized, but most all financially successful sites have grown
 
 We need a technology that is decentralized and can operate in a fashion which requires no trust in operators. Blockchain is a technology breakthrough that was born out of 20 years of research into such trustless systems. Its open ledger has inspired thousands of bright minds and hundreds of startups to dare to rethink the very structures of our economy and democracy. A new technology stack is forming around the blockchain, with the ability to represent a world with digitized assets, creating a foundation for gloval programmable trade. Programmable trade will greatly reduce the amount of delegation of personal powers to the intermediaries.
 
-But we have to be careful. As "software eats the world" we increasingly begin to trust a new representative, this time a developer. To avoid creating a new subtle layer of trust and retain our personal power, we must be able to program the key aspects of the trade ourselves.
+But we have to be careful. As "software eats the world" we increasingly begin to trust a new representative, this time a developer. To avoid creating a new subtle layer of trust and retain our personal power, we must be able to program the key aspects of the trade ourselves. Tradle will make it possible to express complex trade rules in a simple way.
+
 
 Introduction
 ============
