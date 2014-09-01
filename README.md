@@ -28,16 +28,15 @@ We have built complex value chain management systems with independent companies 
 
 There was one problem though. It was really hard to sell this system to businesses, because it required their trust in us, an intermediary that would build and maintain those decentralized Web databases, ensure the quality and especially the security of their sensitive business data. Once this trust was finally given all went very smoothly, but sales process was long and expensive.
 
-Bitcoin changes the game. A trustless (no trust allocation needed) bitcoin technology allows to build such trading system on a new foundation. Like the Web before it forced a rewrite of a most of the business software, bitcoin, or rather a tradenet will force that rewrite again. Those who do believe it, can look at ASPs, that were trying to run old software on the Web, replaced by SaaS systems that provided similar functions in a new environment.
+Bitcoin changes the game. A trustless (no trust allocation needed) bitcoin technology allows to build such trading system on a new foundation. If emergence of SaaS and mobile is any indication, we will witness a rewrite of most of the existing business software, that will not just integrate with the chain, but will inrinsically operate using blockchain's capabilities.
 
 Priciples of the Tradenet
 =========================
 
 * Decentralized, based on blockchain, or rather [sidechains and treechains](https://twitter.com/tradles/status/497081249505484801)
-* Open-source
-* Using an appcoin as payment for services, such as development, network security, computations, storage, analytics, etc. etc.
-* Equally usable by Humans and Machines
-* You own your data. 
+* [Using an appcoin as a payment for services](https://github.com/DavidJohnstonCEO/DecentralizedApplications), such as development, network security, computations, storage, analytics, etc. etc.
+* Equally usable by Humans and Machines. All functions, all information, will be accessible and modifiable by both users and the programs.
+* You own your data. With the blockchain apps replacing centralized one, we will finally [stop being a product](http://www.forbes.com/sites/marketshare/2012/03/05/if-youre-not-paying-for-it-you-become-the-product/).
 * Smart data. For decentralized financial applications to bridge the blockchain and the Web, Web sites must become more accessible to the machines. We are tapping into our decade-long research into Semantic Web to build such a bridge, to make data smart. Algo-trading is our first app for the emerging Tradenet. As data become smart, a lot of new smart things become possible, like a thermostat negotiating electricity rates with the energy network, a car negotiating the price with the nearby garages, a Legal Will executed without a lawyer. We define the rules, and machines negotiate and exchange resources on our behalf to get things we need to live in this world.
 * Programmable by you. The language that defines our business agreements became so dense and specialized that we now can not read without intermediaries. It has become the [biggest lie on the Web](https://tosdr.org/) to click 'I agree' on Terms of Service and License agreements. This lack of understanding often puts us at the mercy of lawyers and government officials. Smart contracts promise to free us from this dependency, but if people can not define the rules themselves, they will just replace one set of intermediaries - lawyers, with another - developers. A great web site [IFTTT](https://ifttt.com/) gave non-developers a way to program the Social Web. Tradle visual contract maker inspired by IFTTT allows anyone to create trading algorithms and we are extending it to cover other types of smart contracts. You.Define.The.Rules.
 * Open for inspection by third-parties (investors, business participants, researchers, tax collectors), reducing the need for governments to prosecute in order to protect the public interest
