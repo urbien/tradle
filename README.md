@@ -38,6 +38,30 @@ Priciples of the Tradenet
 * Open for inspection by third-parties (investors, business participants, researchers, tax collectors), reducing the need for governments to prosecute in order to protect the public interest
 * Programmable by you, eliminating the need to trust developers to translate your business rules and agreements into software
 
+Proposed design concepts of Tradenet apps:
+
+* record dealing between people, companies, organizations and governments so that they can be audited for fairness
+* conflict resolution based on self-governance: automatic or mediated financial and membership penalties as opposed to legal actions
+* ability to give a third-party app the right to analize my transactions, monetary or any other kind. This should be similar to Facebook apps getting access to my data.
+
+Examples of future Tradenet applications
+========================================
+
+* mutual CRM - record of my dealings with companies, like insurance providers, wireless operators, landlords, home repair, etc. Today we call them and they take notes, the notes that we never see. The notes they may deny they took next time we call. Tell me you were not infuriated by this at least once in your life.
+* supply chain management, order management, logistics. This field requires multiple partners to be "on the same page", no go when each has its own internal system.
+* personal and business accounting, based on [tripple entry accounting](http://bitcoinmagazine.com/9969/triple-entry-bookkeeping-bitcoin/)
+* smart contracts, the most talked about application now in bitcoin community
+* algorithmic trading
+* energy usage and trade based on smart thermostat, solar panels and other renewable sources
+* share-a-ride and other resource share schemes, especially with [dynamic pricing](http://www.technologyreview.com/review/529961/in-praise-of-efficient-price-gouging/)
+
+Future areas:
+
+* securitization of everything, [rent out your backyard for farming](http://www.farmandranchliving.com/2007/DJ07/feature06.asp), [your roof for panels](http://collabfinder.com/project/238/sollardollar-is-a-crowdfunding-platform-for-solar), etc.
+* discovering e-commerce opportunities - auto-comparative shopping
+* e-commerce syndication (after market integration into e-commerce site)
+* automatic auctions: between car and the garages 
+
 
 Introduction
 ============
@@ -101,28 +125,3 @@ Tradenet: oracle and blockchain
 ===============================
 
 Each tradle has a trade, which defines what assets to trade, in what quantities and at what prices. JavaScript tradle code does not have access to this information. Neither does oracle. Oracle tells user's wallet to execute a trade. Wallet has all the keys to access user accounts and sign transactions.
-
-Examples
-========
-Pricinples of chain apps:
-
-* record dealing between people, companies, organizations and governments so that they can be audited for fairness
-* conflict resolution based on self-governance: automatic or mediated financial and membership penalties as opposed to legal actions
-* ability to give a third-party app the right to analize my transactions, monetary or any other kind. This should be similar to Facebook apps getting access to my data.
-
-Some early applications of Tradenet will be:
-
-* mutual CRM - record of my dealings with companies, like insurance providers, wireless operators, landlords, home repair, etc.
-* supply chain management, order management, logistics
-* personal and business accounting
-* smart contracts, the most talked about application now in bitcoin community
-* algorithmic trading
-* energy usage and trade based on smart thermostat, solar panels and other renewable sources
-* share-a-ride and other resource share schemes, especially with [dynamic pricing](http://www.technologyreview.com/review/529961/in-praise-of-efficient-price-gouging/)
-
-Future areas:
-
-* securitization of everything, [rent out your backyard for farming](http://www.farmandranchliving.com/2007/DJ07/feature06.asp), [your roof for panels](http://collabfinder.com/project/238/sollardollar-is-a-crowdfunding-platform-for-solar), etc.
-* discovering e-commerce opportunities - auto-comparative shopping
-* e-commerce syndication (after market integration into e-commerce site)
-* automatic auctions: between car and the garages 
