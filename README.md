@@ -1,7 +1,7 @@
 Tradle's mission
 ================
 
-Creation of a tradenet, programmable global trade of digitized assets for the betterment of mankind
+Tradle's vision is an emergent global Tradenet, based on bitcoin, where trade programming of the planet's digitized assets is done by you, and trade fairness and compliance can be assured without the goverment.
 
 What Tradenet will do
 ======================
