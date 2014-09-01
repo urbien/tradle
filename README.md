@@ -35,7 +35,7 @@ Priciples of the Tradenet
 * Open-source
 * Using an appcoin as payment for services, such as development, network security, computations, storage, analytics, etc. etc.
 * Equally accessible by Humans and Machines
-* Open for inspection by third-parties (investors, business participants, researchers), reducing the need for governments to prosecute in order to protect the public
+* Open for inspection by third-parties (investors, business participants, researchers, tax collectors), reducing the need for governments to prosecute in order to protect the public interest
 * Programmable by you, eliminating the need to trust developers to translate your business rules and agreements into software
 
 
