@@ -33,18 +33,22 @@ Bitcoin changes the game. A trustless (no trust allocation needed) bitcoin techn
 Priciples of the Tradenet
 =========================
 
-* Decentralized, based on blockchain, or rather sidechains and treechains
+* Decentralized, based on blockchain, or rather [sidechains and treechains](https://twitter.com/tradles/status/497081249505484801)
 * Open-source
 * Using an appcoin as payment for services, such as development, network security, computations, storage, analytics, etc. etc.
-* Equally accessible by Humans and Machines
+* Equally usable by Humans and Machines
+* You own your data. 
+* Smart data. For decentralized financial applications to bridge the blockchain and the Web, Web sites must become more accessible to the machines. We are tapping into our decade-long research into Semantic Web to build such a bridge, to make data smart. Algo-trading is our first app for the emerging Tradenet. As data become smart, a lot of new smart things become possible, like a thermostat negotiating electricity rates with the energy network, a car negotiating the price with the nearby garages, a Legal Will executed without a lawyer. We define the rules, and machines negotiate and exchange resources on our behalf to get things we need to live in this world.
+* Programmable by you. The language that defines our business agreements became so dense and specialized that we now can not read without intermediaries. It has become the [biggest lie on the Web](https://tosdr.org/) to click 'I agree' on Terms of Service and License agreements. This lack of understanding often puts us at the mercy of lawyers and government officials. Smart contracts promise to free us from this dependency, but if people can not define the rules themselves, they will just replace one set of intermediaries - lawyers, with another - developers. A great web site [IFTTT](https://ifttt.com/) gave non-developers a way to program the Social Web. Tradle visual contract maker inspired by IFTTT allows anyone to create trading algorithms and we are extending it to cover other types of smart contracts. You.Define.The.Rules.
 * Open for inspection by third-parties (investors, business participants, researchers, tax collectors), reducing the need for governments to prosecute in order to protect the public interest
-* Programmable by you, eliminating the need to trust developers to translate your business rules and agreements into software
+
 
 Proposed design concepts of Tradenet apps:
 
 * record dealing between people, companies, organizations and governments so that they can be audited for fairness
 * conflict resolution based on self-governance: automatic or mediated financial and membership penalties as opposed to legal actions
 * ability to give a third-party app the right to analize my transactions, monetary or any other kind. This should be similar to Facebook apps getting access to my data.
+* apps embedding chain explorers and building a local database from the chain, for speed and ease. Chain explorers might have two-tiers, on mobile and cloud sides.
 
 Examples of future Tradenet applications
 ========================================
@@ -63,15 +67,6 @@ Future areas:
 * discovering e-commerce opportunities - auto-comparative shopping
 * e-commerce syndication (after market integration into e-commerce site)
 * automatic auctions: between car and the garages 
-
-
-Introduction
-============
-
-
-* Smart data. For decentralized financial applications to bridge the blockchain and the Web, Web sites must become more accessible to the machines. We are tapping into our decade-long research into Semantic Web to build such a bridge, to make data smart. Algo-trading is our first app for the emerging Tradenet. As data become smart, a lot of new smart things become possible, like a thermostat negotiating electricity rates with the energy network, a car negotiating the price with the nearby garages, a Legal Will executed without a lawyer. We define the rules, and machines negotiate and exchange resources on our behalf to get things we need to live in this world.
-
-* We define the rules. The language that defines our business agreements became so dense and specialized that we now can not read without intermediaries. It has become the [biggest lie on the Web](https://tosdr.org/) to click 'I agree' on Terms of Service and License agreements. This lack of understanding often puts us at the mercy of lawyers and government officials. Smart contracts promise to free us from this dependency, but if people can not define the rules themselves, they will just replace one set of intermediaries - lawyers, with another - developers. A great web site [IFTTT](https://ifttt.com/) gave non-developers a way to program the Social Web. Tradle visual contract maker inspired by IFTTT allows anyone to create trading algorithms and we are extending it to cover other types of smart contracts. 
 
 
 Problem space
