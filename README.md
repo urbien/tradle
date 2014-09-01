@@ -7,20 +7,6 @@ What Tradenet will do
 ======================
 Bitcoin opened new ways of exchanging value. We believe this breakthrough will transform the trade globally. If algorithmic trading on capital markets is any indication, all trade activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments. Tradenet will use freely exchangeable digital tokens/coins to create new incentive systems and new forms of corporate structures.
 
-Some early applications of Tradenet will be:
-
-* smart contracts, most talked about application now in bitcoin community
-* algorithmic trading
-* energy usage and trade: smart thermostat, solar panels
-* share-a-ride and other resource share schemes, especially with dynamic pricing
-
-Future areas:
-
-* securitization of everything, your back yard, your roof, etc.
-* discovering e-commerce opportunities - auto-comparative shopping
-* e-commerce syndication (after market integration into e-commerce site)
-* automatic auctions: between car and the garages 
-
 Motivation
 ==========
 
@@ -100,4 +86,20 @@ Tradenet: oracle and blockchain
 
 Each tradle has a trade, which defines what assets to trade, in what quantities and at what prices. JavaScript tradle code does not have access to this information. Neither does oracle. Oracle tells user's wallet to execute a trade. Wallet has all the keys to access user accounts and sign transactions.
 
+Examples
+========
+Some early applications of Tradenet will be:
 
+* supply chain management, order management, logistics
+* accounting
+* smart contracts, most talked about application now in bitcoin community
+* algorithmic trading
+* energy usage and trade: smart thermostat, solar panels
+* share-a-ride and other resource share schemes, especially with dynamic pricing
+
+Future areas:
+
+* securitization of everything, your back yard, your roof, etc.
+* discovering e-commerce opportunities - auto-comparative shopping
+* e-commerce syndication (after market integration into e-commerce site)
+* automatic auctions: between car and the garages 
