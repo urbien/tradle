@@ -18,9 +18,23 @@ But we have to be careful. As [software is eating the world](http://online.wsj.c
 
 Backstory 
 =========
-The idea of programmable tradle is new, but a more general idea of programmable web has been around since the early 2000. We have seen the spikes of excitement around mashable sites, Facebook platform and declared the age of the APIs to arrive, at least 5 times over. The achievements of RESTful methodology notwithstanding, the key ingredient of programmable Web is still eluding us. The greatest last push to add this ingredient was the Semantic Web initiative of Tim Berners Lee at W3C. I and my core team have been so fascinated with the promise of Semantic Web in the early 2000 that we left our lucrative corporate jobs and have for over a decade been building systems that operated on a core principle "Web for humans and machines". In any of the dozens of applications we built, anything that user could see and do in the application, could be equally accessed and modified by the programs via a single data-centric Web API (in fact UI was built on top of that API).
+The idea of programmable tradle is new, but a more general idea of programmable web has been around since at least 1998, when Tim Berners Lee published his book Weaving The web. We have seen the spikes of excitement around mashable sites, Facebook platform and declared the age of the APIs to arrive, at least 5 times over. The achievements of RESTful methodology notwithstanding, the key ingredient of programmable Web is still eluding us. The greatest last push to add this ingredient was the Semantic Web initiative of Tim Berners Lee at W3C. 
 
-We have built complex value chains with independent companies coordinating their trading activity across 20+ countries with decentralized network of corporate web databases. This included ordering of millions of tons of products, tracking multi-modal transportation across continents and organizing invoicing and payments, without a centralized system, while creating a unified trading information field. This expertise and code we built during this time should come pretty handy as bitcoin/tradenet apply pressure to make any Web site a programmable Web database. 
+My friends and I have been so fascinated with the promise of Semantic Web that in the early 2000s we left our lucrative corporate jobs and have for over a decade been building systems that operated on a core principle "Web for humans and machines". In any of the dozens of applications we built, anything that user could see and do in the application, could be equally accessed and modified by the programs via a single data-centric bi-directional Web API (in fact UI was built on top of that API). This is in contrast to sites and apps that are built just for humans, with may be a bolt-on, often read-only API later on, and the systems that are built just for machines, like EDI and XML exchanges in the past and Web API-based services lately.
+
+We have built complex value chain management systems with independent companies coordinating their trading activity across 20+ countries via decentralized network of corporate web databases. This included ordering of millions of tons of products, tracking multi-modal transportation across continents and organizing invoicing and payments, without a centralized system, while creating a unified trading information field, where each participant could see everything he needed, but only pertaining to the business activities in which his company took part. 
+
+There was one problem though. It was really hard to sell this system to businesses, because it required their trust in us, an intermediary that would build and maintain those decentralized Web databases, ensure the quality and especially the security of their sensitive business data. Once this trust was finally given all went very smoothly, but sales process was long and expensive.
+
+Bitcoin changes the game. A trustless (no trust allocation needed) bitcoin technology allows to build such trading system on a new foundation. Like the Web before it forced a rewrite of a most of the business software, bitcoin, or rather a tradenet will force that rewrite again. Those who do believe it, can look at ASPs, that were trying to run old software on the Web, replaced by SaaS systems that provided similar functions in a new environment.
+
+Priciples of the Tradenet
+=========================
+
+* Decentralized, based on blockchain, or rather sidechains and treechains
+* Open-source
+* Using an appcoin as payment for services, such as development, network security, computations, storage, analytics, etc. etc.
+* Equally accessible by Humans and Machines
 
 
 Introduction
