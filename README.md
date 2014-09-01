@@ -104,18 +104,25 @@ Each tradle has a trade, which defines what assets to trade, in what quantities 
 
 Examples
 ========
+Pricinples of chain apps:
+
+* record dealing between people, companies, organizations and governments so that they can be audited for fairness
+* conflict resolution based on self-governance: automatic or mediated financial and membership penalties as opposed to legal actions
+* ability to give a third-party app the right to analize my transactions, monetary or any other kind. This should be similar to Facebook apps getting access to my data.
+
 Some early applications of Tradenet will be:
 
+* mutual CRM - record of my dealings with companies, like insurance providers, wireless operators, landlords, home repair, etc.
 * supply chain management, order management, logistics
-* accounting
-* smart contracts, most talked about application now in bitcoin community
+* personal and business accounting
+* smart contracts, the most talked about application now in bitcoin community
 * algorithmic trading
-* energy usage and trade: smart thermostat, solar panels
-* share-a-ride and other resource share schemes, especially with dynamic pricing
+* energy usage and trade based on smart thermostat, solar panels and other renewable sources
+* share-a-ride and other resource share schemes, especially with [dynamic pricing](http://www.technologyreview.com/review/529961/in-praise-of-efficient-price-gouging/)
 
 Future areas:
 
-* securitization of everything, your back yard, your roof, etc.
+* securitization of everything, [rent out your backyard for farming](http://www.farmandranchliving.com/2007/DJ07/feature06.asp), [your roof for panels](http://collabfinder.com/project/238/sollardollar-is-a-crowdfunding-platform-for-solar), etc.
 * discovering e-commerce opportunities - auto-comparative shopping
 * e-commerce syndication (after market integration into e-commerce site)
 * automatic auctions: between car and the garages 
