@@ -39,11 +39,12 @@ Priciples of the Tradenet
 * You own your own data (YOYODA). With the blockchain apps replacing centralized ones, we will finally [stop being a product](http://www.forbes.com/sites/marketshare/2012/03/05/if-youre-not-paying-for-it-you-become-the-product/). We believe that in most cases ownership of data will be shared, like a group photo on social net, one party order of services from another party, a transaction with several benefitiaties, etc. With the help of crypto ownership will become more examplicit.
 * Programmable by you. The language that defines our business agreements became so dense and specialized that we now can not read those texts without intermediaries. It has become the [biggest lie on the Web](https://tosdr.org/) to click 'I agree' on Terms of Service and License agreements. This lack of understanding forces us to delegate our personal power to lawyers and government officials. A great web site [IFTTT](https://ifttt.com/) demonstrated that regular people can program, given the right tools. You.Define.The.Rules.
 * Designated inspection. If you have a way to allow limited access to your transactions to third-parties (investors, business participants, researchers) it will promote automatic audit and compliance. This could look  similar to Facebook apps getting access to my data today, avoiding access to private and sensitive info with the help of [zero knowledge proofs](http://en.wikipedia.org/wiki/Zero-knowledge_proof) and other crypto techniques that allow sharing while ensuring data provider did not fake the withheld data.
+* Conflict resolution based on self-governance: automatic or mediated financial and membership penalties as opposed to legal actions, in a style of [lex mercatoria](http://bitcoinism.blogspot.ca/2013/12/lex-cryptographia.html)
 
 
 Proposed design concepts of Tradenet apps:
 
-* conflict resolution based on self-governance: automatic or mediated financial and membership penalties as opposed to legal actions
+
 * apps embedding chain explorers and building a local database from the chain, for speed and ease. Chain explorers might have two-tiers, on mobile and cloud sides.
 
 Examples of future Tradenet applications
