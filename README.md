@@ -118,8 +118,10 @@ Each tradle has a trade, which defines what assets to trade, in what quantities 
 
 Runtime
 =======
-Tradle provides simple UI tools for anyone to be able to program trade. Each user program is called a tradle. When user publishes a tradle, our tool compiles it into an executable code. Runtime containers for tradles, oracles, run this generated code. We are considering two oracles implementations, in Java and JavaScript, Java first. Java implemetation will be designed to run on Android or Oracle Java, so potentially it can run on any OS and on Android smartphones. 
+Tradle provides simple UI tools for anyone to be able to program trade. Each user program is called a tradle. When user publishes a tradle, our tool compiles it into an executable code. Containers for tradles, called oracles, receive events from data nodes and run generated tradles code. Oracles will not be HTTP servers, will not accept REST requests, so that they can run in any environment, even behind the firewalls, like other p2p programs. That said we are working on a simple protocol that will allow to easily communicate with oracles. At this point it will be a form of push messaging.
 
-Tradles could also be written manually. At this stage we plan to run oracles in Docker, running a CoreOS inside a VirtualBox. Together with Java virtual machine this should provide high level of sandboxing to protect host machines from potentially malfunctioning or even malicious tradle code.
+First oracles implementations will be in Java, open sourced in this github repo. It will be designed to run on Android or Oracle Java, so potentially it can run on any OS and on Android smartphones. 
+
+Tradles could also be written manually. We plan to deploy oracles with Docker, running a CoreOS inside a VirtualBox. Together with Java virtual machine this should provide high level of sandboxing to protect host machines from potentially malfunctioning or even malicious tradle code.
 
 Our goal is to make oracles implementation extremely small to so that their security can be easily verified and reimplementation could be synchronously maintained in other languages, like JavaScript, Python, etc.
