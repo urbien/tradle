@@ -116,6 +116,8 @@ Tradenet: oracles and blockchain
 
 Each tradle has a trade, which defines what assets to trade, in what quantities and at what prices. JavaScript tradle code does not have access to this information. Neither do oracles. Oracles tell user's wallets to execute a trade. Wallets have all the keys to access user accounts and sign transactions.
 
+It is not yet clear how to solve the following problem: to communicate with wallets oracles will need API keys. API keys can be generated into 
+
 Runtime
 =======
 Tradle provides simple UI tools for anyone to be able to program trade. Each user program is called a tradle. When user publishes a tradle, our tool compiles it into an executable code. Containers for tradles, called oracles, receive events from data nodes and run generated tradles code. Oracles will not be HTTP servers, will not accept REST requests, so that they can run in any environment, even behind the firewalls, like other p2p programs. That said we are working on a simple protocol that will allow to easily communicate with oracles. At this point it will be a form of push messaging.
