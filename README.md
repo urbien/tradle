@@ -126,4 +126,6 @@ First oracles implementations will be in Java, open sourced in this github repo.
 
 Tradles could also be written manually. We plan to deploy oracles with Docker, running a CoreOS inside a VirtualBox. Together with Java virtual machine this should provide high level of sandboxing to protect host machines from potentially malfunctioning or even malicious tradle code.
 
+At this point tradles will receive events as input parameters and return true or false. We are still designing the way oracles will provide storage to tradles.
+
 Our goal is to make oracles implementation extremely small to so that their security can be easily verified and reimplementation could be synchronously maintained in other languages, like JavaScript, Python, etc.
