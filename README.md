@@ -10,6 +10,8 @@ Bitcoin effect will go far beyond restructuring of capital markets. It will chan
 
 If algorithmic trading on capital markets is any indication, most trade activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments, etc. 
 
+But most importanty, as new tools emerge, anyone will be able to program the trade in Tradenet.
+
 Motivation
 ==========
 
