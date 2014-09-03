@@ -6,7 +6,7 @@ Tradle's vision is an emergent global Tradenet, based on bitcoin, where trade p
 What Tradenet will do
 ======================
 
-Bitcoin effect will go far beyond restructuring of capital markets. It will change the way we do business, and will give birth to a global Tradenet. Tradenet will use freely exchangeable digital tokens/coins to create new business models. Companies will switch to operate on crypto ledger to coordinate activities and data sharing with partners, to provide automatic transparency to investors and to better support customers. On-ledger operations will simplify value assessment for funding, while decreasing the need for compliance and regulation. 
+Bitcoin effect will go far beyond restructuring of the capital markets. It will change the way we do business, and will give birth to a global Tradenet. Tradenet will use freely exchangeable digital tokens/coins to create new business models. Companies will switch to operate on crypto ledger to coordinate activities and data sharing with partners, to provide automatic transparency to investors and to better support customers. On-ledger operations will simplify value assessment for funding, while decreasing the need for compliance and regulation. 
 
 If algorithmic trading on capital markets is any indication, most trade activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments, etc. 
 
