@@ -118,6 +118,8 @@ Each tradle has a trade, which defines what assets to trade, in what quantities 
 
 Runtime
 =======
-Tradle provides simple UI tools to anyone to program trade. Each program is called a tradle. When user publishes a tradle, our tool compiles it into a Java code (later on we will support other languages). Oracles run this generated Java code. We are considering two oracles implementations, in Java and in JavaScript, Java first. Java implemetation will be designed to run on Android or Oracle Java, so potentially it can run on any OS and on Android smartphones.
+Tradle provides simple UI tools for anyone to be able to program trade. Each user program is called a tradle. When user publishes a tradle, our tool compiles it into an executable code. Runtime containers for tradles, oracles, run this generated code. We are considering two oracles implementations, in Java and JavaScript, Java first. Java implemetation will be designed to run on Android or Oracle Java, so potentially it can run on any OS and on Android smartphones. 
 
-The code design principle of oracles implementation will be a small code size so that their security can be easily verified.
+Tradles could also be written manually. At this stage we plan to run oracles in Docker, running a CoreOS inside a VirtualBox. Together with Java virtual machine this should provide high level of sandboxing to protect host machines from potentially malfunctioning or even malicious tradle code.
+
+Our goal is to make oracles implementation extremely small to so that their security can be easily verified and reimplementation could be synchronously maintained in other languages, like JavaScript, Python, etc.
