@@ -6,7 +6,9 @@ Tradle's vision is an emergent global Tradenet, based on bitcoin, where trade p
 What Tradenet will do
 ======================
 
-Bitcoin opened new ways of exchanging value. We believe this breakthrough will transform trade globally. If algorithmic trading on capital markets is any indication, most trade activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments, etc. Tradenet will use freely exchangeable digital tokens/coins to create new incentive systems and new forms of corporate structures. Companies that will switch to operate on the crypto ledger will provide automatic transparency to investors, partners and customers. This will decrease barriers to entry to capital markets, while decreasing the need for compliance and regulation.
+Bitcoin effect will go far beyond restructuring of capital markets. It will change the way we do business, and will give birth to a global Tradenet. Tradenet will use freely exchangeable digital tokens/coins to create new business models. Companies will switch to operate on crypto ledger to coordinate activities and data sharing with partners, to provide automatic transparency to investors and to better support customers. On-ledger operations will simplify value assessment for funding, while decreasing the need for compliance and regulation. 
+
+If algorithmic trading on capital markets is any indication, most trade activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments, etc. 
 
 Motivation
 ==========
@@ -17,7 +19,7 @@ The Internet was born decentralized, but most financially successful sites have 
 
 We need a technology that is decentralized and can operate in a fashion which requires no trust in its operators. Blockchain is a technology breakthrough that was born out of 20 years of research into such trustless systems. Its open ledger has inspired thousands of bright minds and hundreds of startups to dare to rethink the very structures of our economy and democracy. A new technology stack is forming around the blockchain, with the ability to represent a world with digitized assets, creating a foundation for global programmable trade. Programmable trade will greatly reduce the amount of delegation of personal powers to intermediaries.
 
-But we have to be careful. As [software is eating the world](http://online.wsj.com/news/articles/SB10001424053111903480904576512250915629460) we increasingly begin to trust a new representative, this time the developer. To avoid creating a new subtle layer of trust and retain our personal power, we must be able to program the key aspects of the trade ourselves. Tradle will make it possible to express complex trade rules in a simple way.
+But we have to be careful. As [software is eating the world](http://online.wsj.com/news/articles/SB10001424053111903480904576512250915629460) we increasingly begin to trust a new representative, this time the developer. To avoid creating a new subtle layer of trust and retain our personal power, we must be able to program the key aspects of the trade ourselves. We need a way to express complex trade rules in a simple way.
 
 Backstory 
 =========
