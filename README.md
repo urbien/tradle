@@ -120,7 +120,7 @@ It is not yet clear how to solve the following problem: to communicate with wall
 
 Runtime
 =======
-Tradle provides simple UI tools for anyone to be able to program trade. Each user program is called a tradle. When user publishes a tradle, our tool generates tradle code for execution. Containers for tradles, called oracles, receive events from data nodes and run generated tradles code. Oracles will not be HTTP servers (will not accept REST requests), so that they can run in any environment, even behind the firewalls, like other p2p programs. That said we are working on a simple protocol that will allow to easily communicate with the oracles. At this point it will be a form of push messaging.
+Tradle provides simple UI tools for anyone to be able to program trade. Each user program is called a tradle (at this point we provide a tool to create tradles for algorithmic trading). When user publishes a tradle, our tool generates tradle code for execution. Oracles execute a tradle when they receive an event, which tradle is configured for, from the data node. Oracles will not be HTTP servers (will not accept REST requests), so that they can run in any environment, even behind the firewalls, like other p2p programs. That said we are working on a simple protocol that will allow to easily communicate with the oracles. At this point it will be a form of push messaging.
 
 First oracles implementations will be in Java, open sourced in this github repo. It will be designed to run on Android or Oracle Java, so potentially it can run on any OS and on Android smartphones. 
 
