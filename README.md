@@ -115,3 +115,9 @@ Tradenet: oracles and blockchain
 ===============================
 
 Each tradle has a trade, which defines what assets to trade, in what quantities and at what prices. JavaScript tradle code does not have access to this information. Neither do oracles. Oracles tell user's wallets to execute a trade. Wallets have all the keys to access user accounts and sign transactions.
+
+Runtime
+=======
+Tradle provides simple UI tools to anyone to program trade. Each program is called a tradle. When user publishes a tradle, our tool compiles it into a Java code (later on we will support other languages). Oracles run this generated Java code. We are considering two oracles implementations, in Java and in JavaScript, Java first. Java implemetation will be designed to run on Android or Oracle Java, so potentially it can run on any OS and on Android smartphones.
+
+The code design principle of oracles implementation will be a small code size so that their security can be easily verified.
