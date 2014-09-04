@@ -5,21 +5,21 @@ Tradle is here to answer one question - what does it mean to operate a business 
 Tradle's vision
 ===============
 
-An emergent global Tradenet, based on bitcoin technology, where trade programming of the planet's digitized assets is done by you, and trade fairness and compliance can be assured without goverment.
+An emergent global Tradenet, based on bitcoin technology, where trade programming of the planet's digitized assets is done by you, and trade fairness and compliance can be assured with minimal govermenance.
 
 What Tradenet will do
 ======================
 
-Bitcoin effect will go far beyond restructuring of the capital markets. It will change the way we do business, and will give birth to a global Tradenet. Tradenet will use freely exchangeable digital tokens/coins to create new business models. Companies will switch to operate on crypto ledger to coordinate activities and data sharing with partners, to provide automatic transparency to investors and to better support customers. On-ledger operations will simplify value assessment for funding, while decreasing the need for compliance and regulation.
+Bitcoin effect will go far beyond restructuring of the capital markets. It will change the way we do business, and will give birth to a global Tradenet. Tradenet will use freely exchangeable digital tokens/coins (appcoins) to create new business models. Companies will switch to operate on crypto ledger to coordinate activities and data sharing with partners, to provide automatic transparency to investors and to better support customers. On-ledger operations will simplify value assessment for funding, while decreasing the need for compliance and regulation.
 
 If algorithmic trading on capital markets is any indication, most trade activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments, etc. 
 
-But most importanty, as new tools emerge, anyone will be able to program the trade in Tradenet.
+As new tools emerge, anyone will be able to program the trade in Tradenet.
 
 Motivation
 ==========
 
-I have been fascinated with the concept of Tradenet since I first heard it from [Cameron Gray](http://about.me/cameron.john.gray) in his [Bitcoin Magazine article](http://bitcoinmagazine.com/15021/sovereignty-2-0/). Cameron defines Tradenet as "quantify anything of value so that it can be traded in a decentralized highly competitive frictionless market". His vision somehow reminded me of traders from [Vernor Vinge's Deepness In the Sky](http://en.wikipedia.org/wiki/A_Deepness_in_the_Sky), who used open information as a basis for galactic trade. I could define Tradenet as an open ledger world commerce, but the more I think about it, the more it looks to me like an Internet 2.0 where commerce is a first class citizen.
+I have been fascinated with the concept of Tradenet since I first heard it from [Cameron Gray](http://about.me/cameron.john.gray) in his [Bitcoin Magazine article](http://bitcoinmagazine.com/15021/sovereignty-2-0/). Cameron defines Tradenet as "quantify anything of value so that it can be traded in a decentralized highly competitive frictionless market". His vision somehow reminded me of traders from [Vernor Vinge's Deepness In the Sky](http://en.wikipedia.org/wiki/A_Deepness_in_the_Sky), who used open information as a basis for galactic trade. I could define Tradenet as an open-ledger world commerce, or a network of businesses operating on-chain. As commerce becomes a first class citizen on the Internet, it will create stability and livelihood for billions of people engaged in a global trade, not war.
 
 The Internet was born decentralized, but most financially successful sites have grown into monopolies. The dire consequences of this centralization have come into focus with [the theft of 100M credit cards from Target in 2013](http://www.theguardian.com/business/2013/dec/19/target-breach-credit-card-accounts) and became unbearable after we learned of [mass surveilance and government hacking into all aspects of our lives](http://www.democracynow.org/2014/3/17/snowden_docs_expose_how_the_nsa). In the bitcoin world, whenever a centralized solution emerged on top of a decentralized blockchain, it immediately [attracted hackers](http://arstechnica.com/business/2014/02/having-lost-463-million-in-bitcoins-mtgox-files-for-bankruptcy-protection/) and [regulators](http://cointelegraph.com/news/112034/mitigating-the-legal-risks-of-issuing-securities-on-a-cryptoledger). In our current finance system [systemic abuse of trust became a norm](http://topics.nytimes.com/top/reference/timestopics/subjects/l/london_interbank_offered_rate_libor/index.html). Just note the multibillion dollar fines that banks were hit with in 2014 for deceptive activities that led to the US and global financial meltdown. 
 
