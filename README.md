@@ -85,7 +85,7 @@ Ethereum discussions are centered around the possibilities opening up with the T
 - **variables** - like in IFTTT recipe, all tradle's input events become variables. Some others things may become variables in the future. Variables can be used to fill in properties of tradle's action. In algo-trading the action is a trade, and one of its properties is a ticker for the financial product to buy/sell.
 - **storage** - allows user to save a variable on a tradle, and use it in tradle rules next time over. Currently only built-in variables are availble and we plan to expand that to include any property of tradle's input events.
 - **chaining** - tradle firing or its storage changes can serve as an input into another tradle.
-- **profiles** - this is probably the most powerful way of simplfifying micro-scripting. Like bluetooth profiles this allows to create a domain-specific context, with its own set of technicals, built-in variables, etc. Examples of profiles: algo-trading profile (the only one we have at this point), a VC's termsheet, a goods/services order, a legal agreement (smart contract), etc.
+- **profiles** - this is probably the most powerful way of simplfifying micro-scripting. Like bluetooth profiles this allows to create a domain-specific context, with its own set of technicals, actions and possibly other things in the future. Examples of profiles: algo-trading profile (the only one we have at this point), a VC's termsheet, a goods/services order, a legal agreement (smart contract), etc.
 
 Problem space
 =============
