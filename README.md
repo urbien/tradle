@@ -5,7 +5,7 @@ Tradle is here to answer one question - what does it mean to operate a business 
 Tradle's vision
 ===============
 
-An emergent global Tradenet, based on bitcoin technology, where trade programming of the planet's digitized assets is done by you, and trade fairness and compliance can be assured with minimal govermenance.
+An emergent global Tradenet, based on bitcoin technology, where trade programming of the planet's digitized assets is done by you, and trade fairness and compliance can be assured with minimal governance.
 
 What Tradenet will do
 ======================
