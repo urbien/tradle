@@ -152,4 +152,4 @@ Our goal is to make oracles implementation extremely small to so that their secu
 
 Conclusion
 ==========
-Tradle is developing a protocol for running a business on-chain and a micro-scripting for programming business transactions. As transactions include multiple business participants, the Tradenet of connected businesses will emerge. Welcome a decentralized social [business] network.
+Tradle is developing a protocol for running a business on-chain and a micro-scripting for programming business transactions. As transactions include multiple business participants, the Tradenet of connected businesses will emerge, a decentralized social [business] network.
