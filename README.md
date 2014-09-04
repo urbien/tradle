@@ -1,6 +1,6 @@
 Tradle
 ======
-Tradle is here to answer one question - what does it mean to operate a business on-chain?
+Tradle is here to answer a question: what does it mean to operate a business on-chain?
 
 Tradle's vision
 ===============
