@@ -77,15 +77,15 @@ Future areas:
 
 Micro-scripting
 =================
-You-do-your-own-programming is the core principle of Tradenet. Our approach is micro-scripting. We hope drastically simplified scripting will create the same effect as Twitter's micro-blogging - make it ridiculously easy to post new stuff, especially considering that we provide an app to tap tap tap your way into a complete micro-script. 
+You-do-your-own-programming is the core principle of Tradenet. Our approach is micro-scripting. We hope drastically simplified scripting will create the same effect as Twitter's micro-blogging - make it ridiculously easy to post new stuff, especially considering that we provide an app to tap tap tap your way into a complete micro-script, a tradle. 
 
 Ethereum discussions are centered around the possibilities opening up with the Turing-completeness of their script. Yet here we present an opposite approach. How come? Will this simplistic programming model work for a large enough set of use cases? First of all, there is a cop out - you can write your own tradle code (today in Java, tomorrow in JavaScript, Python and other languages), and oracle will dutifully execute it in its sandbox. But we consider this freedom only as a way of experimenting with the use cases before they are generalized to be programmed by non-developers. So what methods do we use to make micro-scripting feasible?
 
 - **technicals** - we borrow this term from algo-trading, where the raw value, like the price of the stock is processed using some algorithm (like moving average), and the result, called a technical, can be used in a rule in lieu of the raw value. At the moment we have built-in set of such functions, but in the future we will provide a plugin mechanism, so that this library can grow.
-- **variables** - like IFTTT, all properties of events become variables (this is work in progress, not implemented yet)
--- **storage** - allows user to save a variable on a tradle, and use it in rules next time over. Currently only built-in variables are availble and we plan to expand that to include any property of tradle's input events.
+- **variables** - like IFTTT, all tradle's input events become variables (this is work in progress, not implemented yet). Some others things may become variables in the future.
+- **storage** - allows user to save a variable on a tradle, and use it in tradle rules next time over. Currently only built-in variables are availble and we plan to expand that to include any property of tradle's input events.
 - **chaining** - tradle firing or its storage changes can serve as an input into another tradle.
-- **profiles** - this is probably the most powerful method. Like bluetooth profiles this allows to create a context to greatly simplify programming. Examples of profiles: algo-trading profile (the only one we have at this point), a VC's termsheet, a goods/services order, a legal agreement (smart contract), etc.
+- **profiles** - this is probably the most powerful way of simplfifying micro-scripting. Like bluetooth profiles this allows to create a domain-specific context, with its own set of technicals, built-in variables, etc. Examples of profiles: algo-trading profile (the only one we have at this point), a VC's termsheet, a goods/services order, a legal agreement (smart contract), etc.
 
 Problem space
 =============
