@@ -43,16 +43,19 @@ Wave after wave, technology shifts come and shake the foundation of our existing
 Principles of the Tradenet
 =========================
 
-- **On-chain operations**. Decentralized, based on blockchain (or rather [sidechains and treechains](https://twitter.com/tradles/status/497081249505484801)) operations will allow businesses to provide third-parties with the limited access to their transactions, both internal, like hiring, inventory, and external, like shipments, orders, supplies. It will allow lenders to assess credit score, investors to do valuations of securities, partners to "operate on the same page", and will afford the low-cost compliance. Access rights could be embedded in transactions as a list of participants or could be granted later on. Visually this grant of access could look  similar to Facebook apps getting access to our personal data today, but with the greatly improved privacy and protection of sensitive business info relying on crypto tech like [zero knowledge proofs](http://en.wikipedia.org/wiki/Zero-knowledge_proof) instead of cetralized sites.
-- **[Appcoins as payments for goods and services](https://github.com/DavidJohnstonCEO/DecentralizedApplications)**. 
+- **On-chain operations**. Decentralized, based on blockchain (or rather [sidechains and treechains](https://twitter.com/tradles/status/497081249505484801)) operations will allow businesses to provide third-parties with the limited access to their transactions, both internal, like hiring, inventory, and external, like shipments, orders, supplies. It will allow lenders to assess credit score, investors to do valuations of securities, partners to "operate on the same page", and will afford the low-cost compliance. 
+-- Access rights could be embedded in transactions as a list of participants or could be granted later on. Visually this grant of access could look  similar to Facebook apps getting access to our personal data today, but with the greatly improved privacy and protection of sensitive business info relying on crypto tech like [zero knowledge proofs](http://en.wikipedia.org/wiki/Zero-knowledge_proof) instead of cetralized sites.
+
+- **[Appcoins-based](https://github.com/DavidJohnstonCEO/DecentralizedApplications)**. An entity will issue appcoins as a pre-sale for future use of its products and services. It will be similar to purchasing tokens for use in laundramats, a card for use of the subway, or pay for future products at Kickstarter. Appcoins may look like shares of the company, but they can not be, at least not in the US for now. In US at this moment (Fall 2014) public solicitation of funds in exchange for securities is allowed only if purchases are made by [verified accredited investors](http://www.sec.gov/info/smallbus/secg/general-solicitation-small-entity-compliance-guide.htm). This rule is expected to be relaxed for small offerings according to JOBS Act of 2012. 
+
+- **No appcoin issuance without on-chain operations**. 
+Running on-chain will ensure transparency essential for investors, and will provide the basis for satisfying regulators. Cry for transparency is one of the most persisten themes of any recent token issuance.
+-- Note that the main condition of a good Kickstarter campaign is full transparency.
+--Regardless of issuing appcoins as pre-order, not securities, just note that publicly traded companies in US are required to satisfy transparency requirements by filing their performance (SEC Forms 10Q, 10K), purchasing of stock by company officers (Forms 3,4,5 - so called insider trading), management changes (Form 8K), etc.
+
 - **Programmable by you**. A great web site, [IFTTT](https://ifttt.com/), demonstrated that regular people can program given the right tools. You.Define.The.Rules.
 
 - **Self-governed**. Conflict resolution will be based on programmed trade rules, agreed upon upfront. For conflict resolution these programs will use escrow, fidelity bonds and insurance, as opposed to legal actions, in the style of [lex mercatoria](http://bitcoinism.blogspot.ca/2013/12/lex-cryptographia.html).
-
-Tradenet laws
-=============
-1. **No appcoins issuance without on-chain operations**. 
-In other words, no securities without transparency. Pre-requisite for anyone issuing appcoins will be running operations on-chain. Running on-chain will ensure transparency essential for investors, and will provide the basis for satisfying regulators. Note that publicly traded companies in US are required to satisfy transparency requirements by filing their performance (SEC Forms 10Q, 10K), purchasing of stock by company officers (Forms 3,4,5 - so called insider trading), management changes (Form 8K), etc. In US at this moment (Fall 2014) public solicitation of funds in exchnage for securities is allowed if purchases are made by [verified accredited investors](http://www.sec.gov/info/smallbus/secg/general-solicitation-small-entity-compliance-guide.htm). This rule is expected to relaxed for small offerings according to JOBS Act of 2012.
 
 
 Examples of future Tradenet applications
