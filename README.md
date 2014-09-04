@@ -149,3 +149,7 @@ Tradles could also be written manually. We plan to deploy oracles with Docker, r
 At this point tradles will receive events as input parameters and return true or false. We are still designing the way oracles will provide storage to tradles.
 
 Our goal is to make oracles implementation extremely small to so that their security can be easily verified and reimplementation could be synchronously maintained in other languages, like JavaScript, Python, etc.
+
+Conclusion
+==========
+Tradle is developing a protocol for running a business on-chain and a micro-scripting for programming business transactions. As transactions include multiple business participants, the Tradenet of connected businesses will emerge. Welcome a decentralized social [business] network.
