@@ -53,7 +53,7 @@ Principles of the Tradenet
 Tradenet laws
 =============
 * no appcoins issuance without on-chain operations. 
-In other words, no securities without transparency. Pre-requisite for anyone issuing appcoins will be running operations on-chain. Running on-chain will ensure transparency essential for investors, and will eventually satisfy regulators. On-chain operations can automatically file necessary compliance documents. In US it might mean SEC Form 4, Form 8K, etc.
+In other words, no securities without transparency. Pre-requisite for anyone issuing appcoins will be running operations on-chain. Running on-chain will ensure transparency essential for investors, and will provide the basis for satisfying regulators. Note that publicly traded companies in US are required to satisfy transparency requirements by filing their performance (SEC Forms 10Q, 10K), purchasing of stock by company officers (Forms 3,4,5 - so called insider trading), Form 8K (management changes, etc.), etc. In US at this moment (Fall 2014) public solicitation of funds for sale of securities is allowed if purchases are made by [verified accredited investors](http://www.sec.gov/info/smallbus/secg/general-solicitation-small-entity-compliance-guide.htm). This rule is expected to relaxed for small offerings according to JOBS Act of 2012.
 
 
 Examples of future Tradenet applications
