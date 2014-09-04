@@ -52,7 +52,7 @@ This may sound harsh, but call for transparency is one of the most persisten the
 ..* Note that transparency is the main condition of a good Kickstarter campaign.
 ..* Note that publicly traded companies in US are required to satisfy transparency requirements by filing their performance (SEC Forms 10Q, 10K), officers buying/selling company stock (Forms 3,4,5 - so called insider trading), management changes (Form 8K), etc.
 
-- **Programmable by you**. As stated above, for the Tradenet to remain "trustless" is it important that You.Define.The.Rules. Even if programmable rules are a bit too simple for now in Tradle, it is crucial for users to program and be able to read the rules of the trade. Why is it crucial? In addition to a trustless requirement, it will allow trade participants to agree on commercial terms and avoid legal action. A great web site [IFTTT](https://ifttt.com/) demonstrated that regular people can program, given the right tools. For the lack of the proper term, we call such programming, a micro-algoritmic trading (in our startup we playfully call these algorithms tradles).
+- **Programmable by you**. As stated above, for the Tradenet to remain "trustless" is it important that You.Define.The.Rules. Even if programmable rules are a bit too simple for now in Tradle, it is crucial for users to program and be able to read the rules of the trade. Why is it crucial? In addition to a trustless requirement, it will allow trade participants to agree on commercial terms and avoid legal action. A great web site [IFTTT](https://ifttt.com/) demonstrated that regular people can program, given the right tools. For the lack of the proper term, we call such programming, a micro-scripted trading (in our startup we playfully call these scripts, tradles).
 
 - **Self-governed**. Conflict resolution will be based on programmed trade rules, agreed upon upfront. For conflict resolution these programs will use escrow, fidelity bonds and insurance, as opposed to legal actions, in the style of [lex mercatoria](http://bitcoinism.blogspot.ca/2013/12/lex-cryptographia.html).
 
@@ -75,6 +75,17 @@ Future areas:
 - **e-commerce syndication** (after market integration into e-commerce site)
 - **IoT**: automatic auctions between cars and garages, etc.
 
+Micro-scripting
+=================
+You-do-your-own-programming is the core principle of Tradenet. Our approach is micro-scripting. We hope drastically simplified scripting will create the same effect as Twitter's micro-blogging - make it ridiculously easy to post new stuff, especially considering that we provide an app to tap tap tap your way into a complete micro-script. 
+
+Ethereum discussions are centered around the possibilities opening up with the Turing-completeness of their script. Yet here we present an opposite approach. How come? Will this simplistic programming model work for a large enough set of use cases? First of all, there is a cop out - you can write your own tradle code (today in Java, tomorrow in JavaScript, Python and other languages), and oracle will dutifully execute it in its sandbox. But we consider this freedom only as a way of experimenting with the use cases before they are generalized to be programmed by non-developers. So what methods do we use to make micro-scripting feasible?
+
+- **technicals** - we borrow this term from algo-trading, where the raw value, like the price of the stock is processed using some algorithm (like moving average), and the result, called a technical, can be used in a rule in lieu of the raw value. At the moment we have built-in set of such functions, but in the future we will provide a plugin mechanism, so that this library can grow.
+- **variables** - like IFTTT, all properties of events become variables (this is work in progress, not implemented yet)
+-- **storage** - allows user to save a variable on a tradle, and use it in rules next time over. Currently only built-in variables are availble and we plan to expand that to include any property of tradle's input events.
+- **chaining** - tradle firing or its storage changes can serve as an input into another tradle.
+- **profiles** - this is probably the most powerful method. Like bluetooth profiles this allows to create a context to greatly simplify programming. Examples of profiles: algo-trading profile (the only one we have at this point), a VC's termsheet, a goods/services order, a legal agreement (smart contract), etc.
 
 Problem space
 =============
