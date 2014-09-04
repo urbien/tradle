@@ -10,7 +10,7 @@ An emergent global Tradenet, based on bitcoin technology, where trade programmin
 What Tradenet will do
 ======================
 
-Bitcoin effect will go far beyond restructuring of the capital markets. It will change the way we do business, and will give birth to a global Tradenet. Tradenet will use freely exchangeable digital tokens/coins (appcoins) to create new business models. Companies will switch to operate on crypto ledger to coordinate activities and data sharing with partners, to provide automatic transparency to investors and to better support customers. On-ledger operations will simplify value assessment for funding, while decreasing the need for compliance and regulation.
+Bitcoin effect will go far beyond restructuring of the capital markets. It will change the way we do business, and will give birth to a global Tradenet. Tradenet will use freely exchangeable digital tokens/[appcoins](startupboy.com/2014/03/09/the-bitcoin-model-for-crowdfunding/) to create new business models. Companies will switch to operate on crypto ledger (on-chain) to coordinate activities and data sharing with partners, to provide automatic transparency to investors and to better support customers. On-chain operations will simplify value assessment for funding, while decreasing the need for compliance and regulation.
 
 If algorithmic trading on capital markets is any indication, most trade activity will become automated. This will include trade of physical goods and their digitized representations. It will include and transform existing trade activities like agreements, orders of goods and services, logistics and warehousing, production and quality control, time control and project management, invoices and payments, etc. 
 
@@ -43,7 +43,7 @@ Wave after wave, technology shifts come and shake the foundation of our existing
 Principles of the Tradenet
 =========================
 
-* On-chain operations. Decentralized, based on blockchain, or rather [sidechains and treechains](https://twitter.com/tradles/status/497081249505484801). This will allow you to provide third-parties with the limited access to your transactions. It will allow investors do fair valuations of securities, will allow supply chain partners to "operate on the same page", and will afford low-cost compliance. Access rights could be embedded in transactions as a list of participants or could be granted later on. Visually this grant of access could look  similar to Facebook apps getting access to our personal data today, but with the greatly improved privacy and protection of sensitive business info relying on crypto tech like [zero knowledge proofs](http://en.wikipedia.org/wiki/Zero-knowledge_proof) instead of cetralized sites.
+* On-chain operations. Decentralized, based on blockchain, or rather [sidechains and treechains](https://twitter.com/tradles/status/497081249505484801) operations will allow you to provide third-parties with the limited access to your transactions, both internal, like hiring, inventory, and external, like shipments, orders, supplies. It will allow lenders to assess your credit score, investors to do valuations of securities, partners to "operate on the same page", and will afford the low-cost compliance. Access rights could be embedded in transactions as a list of participants or could be granted later on. Visually this grant of access could look  similar to Facebook apps getting access to our personal data today, but with the greatly improved privacy and protection of sensitive business info relying on crypto tech like [zero knowledge proofs](http://en.wikipedia.org/wiki/Zero-knowledge_proof) instead of cetralized sites.
 * [Appcoins as payments for goods and services](https://github.com/DavidJohnstonCEO/DecentralizedApplications). 
 * Programmable by you. The language that defines our business agreements has become so dense and specialized that we now cannot read those texts without intermediaries. It has become the [biggest lie on the Web](https://tosdr.org/) to click 'I agree' on Terms of Service and License agreements. This lack of understanding forces us to delegate our personal power to lawyers and government officials. A great web site, [IFTTT](https://ifttt.com/), demonstrated that regular people can program given the right tools. You.Define.The.Rules.
 * Self-governance: Conflict resolution will be based on trade rules, agreed upon upfront. For conflic resolution it will use escrow, fidelity bonds and insurance, as opposed to legal actions, in the style of [lex mercatoria](http://bitcoinism.blogspot.ca/2013/12/lex-cryptographia.html).
@@ -52,7 +52,8 @@ Principles of the Tradenet
 
 Tradenet laws
 =============
-* no appcoins without on-chain operations. In other words, no securities without transparency. Pre-requisite for anyone issuing appcoins will be running operations on-chain. Running on-chain will ensure transparency essential for investors and regulators.
+* no appcoins issuance without on-chain operations. 
+In other words, no securities without transparency. Pre-requisite for anyone issuing appcoins will be running operations on-chain. Running on-chain will ensure transparency essential for investors, and will eventually satisfy regulators. On-chain operations can automatically file necessary compliance documents. In US it might mean SEC Form 4, Form 8K, etc.
 
 
 Examples of future Tradenet applications
