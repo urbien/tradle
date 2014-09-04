@@ -51,11 +51,11 @@ Principles of the Tradenet
 This may sound harsh, but call for transparency is one of the most persisten themes of any recent token issuance. Running business operations on-chain will ensure transparency essential for investors, and will provide the basis for satisfying regulators.
 ..* Note that transparency is the main condition of a good Kickstarter campaign.
 ..* Note that publicly traded companies in US are required to satisfy transparency requirements by filing their performance (SEC Forms 10Q, 10K), officers buying/selling company stock (Forms 3,4,5 - so called insider trading), management changes (Form 8K), etc.
+..* Assessing credibility will become easier as each on-chain transaction connects Tradenet nodes, building up a social [buisness] network.
 
 - **Programmable by you**. As stated above, for the Tradenet to remain "trustless" is it important that You.Define.The.Rules. Even if programmable rules are a bit too simple for now in Tradle, it is crucial for users to program and be able to read the rules of the trade. Why is it crucial? In addition to a trustless requirement, it will allow trade participants to agree on commercial terms and avoid legal action. A great web site [IFTTT](https://ifttt.com/) demonstrated that regular people can program, given the right tools. For the lack of the proper term, we call such programming, a micro-scripted trading (in our startup we playfully call these scripts, tradles).
 
-- **Self-governed**. Conflict resolution will be based on programmed trade rules, agreed upon upfront. For conflict resolution these programs will use escrow, fidelity bonds and insurance, as opposed to legal actions, in the style of [lex mercatoria](http://bitcoinism.blogspot.ca/2013/12/lex-cryptographia.html).
-
+- **Self-governed**. Conflict resolution will be based on programmed trade rules, agreed upon upfront. For conflict resolution these programs will use escrow, fidelity bonds and insurance, as opposed to legal actions, in the style of [lex mercatoria](http://bitcoinism.blogspot.ca/2013/12/lex-cryptographia.html). 
 
 Examples of future Tradenet applications
 ========================================
