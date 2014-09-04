@@ -136,7 +136,7 @@ Tradenet: oracles and blockchain
 
 Each tradle has trade(s), which define what assets to trade, in what quantities and at what prices. The tradle's code does not have access to this information. Neither do oracles. Oracles tell user's wallets to execute a trade. Wallets have all the keys to access user accounts and sign transactions.
 
-It is not yet clear how to solve the following problem: to communicate with wallets oracles will need API keys, and it would be totally insecure to give oracle those keys. May be an approach could look something like this: oracle hashes tradle's decision combined with the hashes of inputs, and hash of oracle's code, and hash of the tradle's code. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Another problem is that wallet code needs to get modified for that.
+It is not yet clear how to solve the following problem: to communicate with wallets oracles will need API keys, and it would be totally insecure to give oracle those keys. May be an approach could look something like this: oracle hashes tradle's decision (combined with the hashes of inputs, and hash of oracle's code, and hash of the tradle's code) and puts it in a box. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Another problem is that wallet code needs to get modified for that.
 
 Runtime
 =======
