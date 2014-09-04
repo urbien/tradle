@@ -46,9 +46,8 @@ Principles of the Tradenet
 - **On-chain operations**. Decentralized, based on blockchain, or rather [sidechains and treechains](https://twitter.com/tradles/status/497081249505484801) operations will allow you to provide third-parties with the limited access to your transactions, both internal, like hiring, inventory, and external, like shipments, orders, supplies. It will allow lenders to assess your credit score, investors to do valuations of securities, partners to "operate on the same page", and will afford the low-cost compliance. Access rights could be embedded in transactions as a list of participants or could be granted later on. Visually this grant of access could look  similar to Facebook apps getting access to our personal data today, but with the greatly improved privacy and protection of sensitive business info relying on crypto tech like [zero knowledge proofs](http://en.wikipedia.org/wiki/Zero-knowledge_proof) instead of cetralized sites.
 - **[Appcoins as payments for goods and services](https://github.com/DavidJohnstonCEO/DecentralizedApplications)**. 
 - **Programmable by you**. The language that defines our business agreements has become so dense and specialized that we now cannot read those texts without intermediaries. It has become the [biggest lie on the Web](https://tosdr.org/) to click 'I agree' on Terms of Service and License agreements. This lack of understanding forces us to delegate our personal power to lawyers and government officials. A great web site, [IFTTT](https://ifttt.com/), demonstrated that regular people can program given the right tools. You.Define.The.Rules.
+
 - **Self-governance**. Conflict resolution will be based on trade rules, agreed upon upfront. For conflic resolution it will use escrow, fidelity bonds and insurance, as opposed to legal actions, in the style of [lex mercatoria](http://bitcoinism.blogspot.ca/2013/12/lex-cryptographia.html).
-- **Equally usable by Humans and Machines**. All functions, all information, will be accessible and modifiable by both users and programs.
-- **You own your own data (YOYODA)**. With the blockchain apps replacing centralized ones, users will finally [stop being a product](http://www.forbes.com/sites/marketshare/2012/03/05/if-youre-not-paying-for-it-you-become-the-product/). In many cases ownership of the data will be shared, like a group photo on social net, an order of services from one party by another, a transaction with several beneficiaries, etc. Crypto, like multi-sig will provide access control for shared resources. 
 
 Tradenet laws
 =============
@@ -59,20 +58,20 @@ In other words, no securities without transparency. Pre-requisite for anyone iss
 Examples of future Tradenet applications
 ========================================
 
-* mutual CRM - record my intercations with companies, like insurance providers, wireless operators, landlords, home repair, etc. Today we call them and they take notes, notes we never see. Notes they may deny they took next time we call. Tell me you were not infuriated by this at least once in your life.
-* supply chain management, order management, logistics. This field requires multiple partners to be "on the same page", no go when each has its own internal system.
-* personal and business accounting, based on [tripple entry accounting](http://bitcoinmagazine.com/9969/triple-entry-bookkeeping-bitcoin/)
-* smart contracts: The biggest excitement in the bitcoin world is centered around the notion of programmability of money, with the key concepts being smart contracts and smart properties, initially published by [Nick Szabo in 1994](http://szabo.best.vwh.net/smart.contracts.html). A highly hyped new blockchain Ethereum even has a built-in ability to execute smart contracts, contracts that have funds associated with them, arbitrary code and state. Ethereum's limitation though is that its contracts cannot access data from the outside world. Algorithmic trading is a form of a smart contract that uses outside data called market indicators to make financial decisions.
-* algorithmic trading. In the past decade most capital markets became fully electronic (the new bitcoin markets were born electronic from the get go). This opened the doors to an algorithmic trading revolution. Top Wall Street firms trade 100% algorithmically, yet individuals and smaller firms are largely behind. Trading hours are 24/7 in currency and the emerged crypto-currency markets. The amount of assets traded is skyrocketing, with the introduction of hundreds of alt-currencies and emergence of [appcoins](http://startupboy.com/2014/03/09/the-bitcoin-model-for-crowdfunding/). Without algorithmic trading, human traders will not be able to compete.
-* energy usage and trade based on smart thermostats, solar panels and other renewable sources
-* share-a-ride and other resource sharing schemes, especially with [dynamic pricing](http://www.technologyreview.com/review/529961/in-praise-of-efficient-price-gouging/)
+- **mutual CRM** - record my intercations with companies, like insurance providers, wireless operators, landlords, home repair, etc. Today we call them and they take notes, notes we never see. Notes they may deny they took next time we call. Tell me you were not infuriated by this at least once in your life.
+- **supply chain management, order management, logistics**. This field requires multiple partners to be "on the same page", no go when each has its own internal system.
+- **personal and business accounting**, based on [tripple entry accounting](http://bitcoinmagazine.com/9969/triple-entry-bookkeeping-bitcoin/)
+- **smart contracts**: The biggest excitement in the bitcoin world is centered around the notion of programmability of money, with the key concepts being smart contracts and smart properties, initially published by [Nick Szabo in 1994](http://szabo.best.vwh.net/smart.contracts.html). A highly hyped new blockchain Ethereum even has a built-in ability to execute smart contracts, contracts that have funds associated with them, arbitrary code and state. Ethereum's limitation though is that its contracts cannot access data from the outside world. Algorithmic trading is a form of a smart contract that uses outside data called market indicators to make financial decisions.
+- **algorithmic trading**. In the past decade most capital markets became fully electronic (the new bitcoin markets were born electronic from the get go). This opened the doors to an algorithmic trading revolution. Top Wall Street firms trade 100% algorithmically, yet individuals and smaller firms are largely behind. Trading hours are 24/7 in currency and the emerged crypto-currency markets. The amount of assets traded is skyrocketing, with the introduction of hundreds of alt-currencies and emergence of [appcoins](http://startupboy.com/2014/03/09/the-bitcoin-model-for-crowdfunding/). Without algorithmic trading, human traders will not be able to compete.
+- **energy usage and trade** based on smart thermostats, solar panels and other renewable sources
+- **share-a-ride and other resource sharing schemes**, especially with [dynamic pricing](http://www.technologyreview.com/review/529961/in-praise-of-efficient-price-gouging/)
 
 Future areas:
 
-* securitization of everything, [rent out your backyard for farming](http://www.farmandranchliving.com/2007/DJ07/feature06.asp), [your roof for panels](http://collabfinder.com/project/238/sollardollar-is-a-crowdfunding-platform-for-solar), etc.
-* discovering e-commerce opportunities - auto-comparative shopping
-* e-commerce syndication (after market integration into e-commerce site)
-* automatic auctions: between cars and garages 
+- **securitization of everything**, [rent out your backyard for farming](http://www.farmandranchliving.com/2007/DJ07/feature06.asp), [your roof for panels](http://collabfinder.com/project/238/sollardollar-is-a-crowdfunding-platform-for-solar), etc.
+- **discovering e-commerce opportunities** - auto-comparative shopping
+- **e-commerce syndication** (after market integration into e-commerce site)
+- **IoT**: automatic auctions between cars and garages, etc.
 
 
 Problem space
