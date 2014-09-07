@@ -138,13 +138,26 @@ Each tradle has trade(s), which define what assets to trade, in what quantities 
 
 It is not yet clear how to solve the following problem: to communicate with wallets oracles will need API keys, and it would be totally insecure to give oracle those keys. May be an approach could look something like this: oracle hashes tradle's decision (combined with the hashes of inputs, and hash of oracle's code, and hash of the tradle's code) and puts it in a box. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Another problem is that wallet code needs to get modified for that.
 
+Architecture, from 10,000 feet
+======================================
+Today mobile apps paint using a local database on the device, create transactions in local database and then synchronize the data with the database on the cloud server. This flow has evolved from the "always connected" flow of web apps due to the necessity of supporting offline/disconnected operations.
+
+How will this flow change with the blockchain tech?
+
+Since we postulate that *all* transactions will be on the chain, then cloud server database can be bootstrapped from the chain the same way bitcoin full nodes are bootstrapped and similar to how blockchain explorers read transactions from the chain and create a browsable, searchable database.
+
+App will be able to bootstrap from chain too, but more like light wallets do, or may be it will bootstrap its databse from the cloud server, like today. The key difference though is when app's user fills out some form, buys something, or makes some other choice by tapping the screen, the app will create a transaction and send it to the chain. By the chain here I mean an enhanced blockchain, fronted by the oracle. Oracle will make a decision, enhance a transaction or perhaphs generate several more transactions and send them to the blockchain. By blockchain here I mean either an Etherium, a Mastercoin, Notary Chain or some other form of blockchain/sidechain that allows to add rich semantics to transactions.
+
+[Mobile] App <-- chain explorer <-- chain
+[Mobile] App --> chain 
+
 Runtime
 =======
 Tradle provides simple UI tools for anyone to be able to program trade. Each user program is called a tradle (at this point we provide a tool to create tradles for algorithmic trading). When user publishes a tradle, our tool generates tradle code for execution. Oracles execute a tradle when they receive an event, which tradle is configured for, from the data node. Oracles will not be HTTP servers (will not accept REST requests), so that they can run in any environment, even behind the firewalls, like other p2p programs. That said we are working on a simple protocol that will allow to easily communicate with the oracles. At this point it will be a form of push messaging.
 
 First oracles implementations will be in Java, open sourced in this github repo. It will be designed to run on Android or Oracle Java, so potentially it can run on any OS and on Android smartphones. 
 
-Tradles could also be written manually. We plan to deploy oracles with Docker, running a CoreOS inside a VirtualBox. Together with Java virtual machine this should provide high level of sandboxing to protect host machines from potentially malfunctioning or even malicious tradle code.
+Tradles could also be written manually. We plan to deploy oracles with the use of Docker, running in a CoreOS inside a VirtualBox. CoreOS is a stripped down Linux OS that runs apps in docker containers and allows to automate clusters of apps. Together with Java virtual machine this should provide high level of sandboxing to protect host machines from potentially malfunctioning or even malicious tradle code.
 
 At this point tradles will receive events as input parameters and return true or false. We are still designing the way oracles will provide storage to tradles.
 
