@@ -138,8 +138,8 @@ Each tradle has trade(s), which define what assets to trade, in what quantities 
 
 It is not yet clear how to solve the following problem: to communicate with wallets oracles will need API keys, and it would be totally insecure to give oracle those keys. May be an approach could look something like this: oracle hashes tradle's decision (combined with the hashes of inputs, and hash of oracle's code, and hash of the tradle's code) and puts it in a box. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Another problem is that wallet code needs to get modified for that.
 
-Architecture, from 10,000 feet
-======================================
+New app architecture, broad strokes
+===================================
 Today mobile apps paint using a local database on the device, create transactions in local database and then synchronize the data with the database on the cloud server. This flow has evolved from the "always connected" flow of web apps due to the necessity of supporting offline/disconnected operations.
 
 How will this flow change with the blockchain tech?
