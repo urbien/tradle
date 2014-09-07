@@ -149,6 +149,7 @@ Since we postulate that *all* transactions will be on the chain, then cloud serv
 App will be able to bootstrap from chain too, but more like light wallets do, or may be it will bootstrap its databse from the cloud server, like today. The key difference though is when app's user fills out some form, buys something, or makes some other choice by tapping the screen, the app will create a transaction and send it to the chain. By the chain here I mean an enhanced blockchain, fronted by the oracle. Oracle will make a decision, enhance a transaction or perhaphs generate several more transactions and send them to the blockchain. By blockchain here I mean either an Etherium, a Mastercoin, Notary Chain or some other form of blockchain/sidechain that allows to add rich semantics to transactions.
 
 [Mobile] App <-- chain explorer <-- chain
+
 [Mobile] App --> chain 
 
 Runtime
