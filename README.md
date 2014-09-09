@@ -94,7 +94,7 @@ We believe that in a Tradenet computations will be on these tiers: 1) on chain (
 
 According to bitcoin core developer Gavin Andersen off-chain data and computations is the next bitcoin frontier:  ["all of the really interesting complex contracts I can think of require data from outside the blockchain"](http://gavintech.blogspot.com/2014/06/bit-thereum.html)
 
-Ethereum captured people's imagination on the potential of extended on-chain computations with a crowdsale that is approaching a cool $30M. Ethereum's innovations such as per-contract storage, arbitrary scripts, pay forward computations (gas), etc., allow to implement a whole new class of apps. Yet, there is a much larger class of apps that will emerge between the web/cloud and the chain.
+Ethereum captured people's imagination on the potential of extended on-chain computations with a second highest crowdfunding in history - a cool $15M. Ethereum's innovations such as per-contract storage, arbitrary scripts, pay forward computations (gas), etc., allow to implement a whole new class of apps. Yet, there is a much larger class of apps that will emerge between the web/cloud and the chain.
 
 In the bitcoin world these apps are traditionally called Oracles. Vitalik in [Ethereum and Oracles](https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/) blog writes: "The most common case that will appear in reality is the case of external data".
 
