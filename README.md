@@ -140,17 +140,20 @@ It is not yet clear how to solve the following problem: to communicate with wall
 
 New app architecture, broad strokes
 ===================================
-Today mobile apps paint using a local database on the device, create transactions in local database and then synchronize the data with the database on the cloud server. This flow has evolved from the "always connected" flow of web apps due to the necessity of supporting offline/disconnected operations.
+Modern mobile apps use device's local database instead of a cloud database. Such apps paint the screen from the local db and record user input by creating transactions in local db. Synchronization of data to cloud database happens in the background. This flow has evolved from the "always connected" flow of Web apps due to the necessity of supporting offline/disconnected operations.
 
-How will this flow change with the blockchain tech?
+Turns out the above flow is a great enabler for on-chain apps.
 
-Since we postulate that *all* transactions will be on the chain, then cloud server database can be bootstrapped from the chain the same way bitcoin full nodes are bootstrapped and similar to how blockchain explorers read transactions from the chain and create a browsable, searchable database.
+1. *all* transactions go to the chain. Chain becomes a master database, and cloud databases its slave databases. It is similar to how current blockchain explorers read transactions from the chain and create a browsable, searchable database. By the chain here we mean an enhanced blockchain, fronted by the oracle. Oracle will make a decision, enhance a transaction or perhaphs generate several more transactions and send them to the underlying blockchain, like Ethereum, Mastercoin, Notary Chain with richer semantics and storage capabilities.
 
-App will be able to bootstrap from chain too, but more like light wallets do, or may be it will bootstrap its databse from the cloud server, like today. The key difference though is when app's user fills out some form, buys something, or makes some other choice by tapping the screen, the app will create a transaction and send it to the chain. By the chain here I mean an enhanced blockchain, fronted by the oracle. Oracle will make a decision, enhance a transaction or perhaphs generate several more transactions and send them to the blockchain. By blockchain here I mean either an Etherium, a Mastercoin, Notary Chains or some other form of blockchain/sidechain that allows to add rich semantics to transactions.
+2. Apps bootstrap from the chain too (but more like today's blockchain SPV clients). As an optimization, apps could bootstrap from a cloud database, but verify all the data and app assets in background via a blockchain. When user fills out some form, buys something, or makes some other choice by tapping the screen, the app will create a transaction and send it to the chain.
 
-[Mobile] App <-- chain explorer <-- chain
+Bootstrapping:
+`[Mobile] App <-- cloud database <-- chain
+         App <-- chain`
 
-[Mobile] App --> chain 
+Transactions:
+`[Mobile] App --> chain`
 
 Runtime
 =======
