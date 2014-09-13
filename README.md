@@ -147,10 +147,10 @@ Modern mobile apps use device's local database as their primary database. Such a
 2. *Apps bootstrap the chain*. App's local db becomes a slave of a chain instead of a slave of a cloud db. As an optimization, apps could bootstrap from a cloud db, but verify all the data and app assets with the chain. New transactions are sent directly to the chain, that is when user fills out some form, buys something, or makes some other choice by tapping the screen, the app will create a transaction and send it to the chain.
 
 Bootstrapping:
-`[Mobile] App <-- cloud database <-- chain
-         App <-- chain`
+`[Mobile] App <-- cloud database <-- chain`
+         `App <-- chain`
 
-Transactions:
+New transactions:
 `[Mobile] App --> chain`
 
 Runtime
