@@ -157,14 +157,12 @@ Runtime
 =======
 Tradle provides simple UI tools for anyone to be able to program trade. Each user program is called a tradle (at this point we provide a tool to create tradles for algorithmic trading). When user publishes a tradle, our tool generates tradle code for execution. Oracles execute a tradle when they receive an event, which tradle is configured for, from the data node. Oracles will not be HTTP servers (will not accept REST requests), so that they can run in any environment, even behind the firewalls, like other p2p programs. That said we are working on a simple protocol that will allow to easily communicate with the oracles. At this point it will be a form of push messaging.
 
-First oracles implementations will be in Java, open sourced in this github repo. It will be designed to run on Android or Oracle Java, so potentially it can run on any OS and on Android smartphones. 
+First oracles implementations will be in Java, open sourced in this github repo. It will be designed to run on Android or Oracle Java, so potentially it can run on any OS and on Android smartphones. Tradles could also be written manually. 
 
-Tradles could also be written manually. We plan to deploy oracles with the use of Docker, running in a CoreOS inside a VirtualBox. CoreOS is a stripped down Linux OS that runs apps in docker containers and allows to automate clusters of apps. Together with Java virtual machine this should provide high level of sandboxing to protect host machines from potentially malfunctioning or even malicious tradle code.
+Miners will only need to download and install the container that will run in a VirtualBox. Oracles will be automatically deployed into those containers with the use of Docker, running in a CoreOS inside a VirtualBox. CoreOS is a stripped down Linux OS that runs every apps in a separate docker container and allows to automate docker deployments across a cluster of CoreOS instances. Together with Java virtual machine this should provide high level of sandboxing to protect host machines from potentially malfunctioning or even malicious tradle code. We are also looking into the Maidsafe's capabilities for this type of orchestration.
 
-At this point tradles will receive events as input parameters and return true or false. We are still designing the way oracles will provide storage to tradles.
-
-Our goal is to make oracles implementation extremely small to so that their security can be easily verified and reimplementation could be synchronously maintained in other languages, like JavaScript, Python, etc.
+At this point tradles will receive events as input parameters and return true or false. We are still designing the way oracles will provide storage to tradles. Our goal is to make oracles implementation extremely small so that their security can be easily verified.
 
 Conclusion
 ==========
-Tradle is developing a protocol for running a business on-chain and a micro-scripting for programming business transactions. As transactions include multiple business participants, the Tradenet of connected businesses will emerge, a decentralized social [business] network.
+Tradle is developing a protocol for running business operations on a distributed cloud powered by the blockchain. As transactions include multiple business participants, these relationships will begin to form a Tradenet of connected businesses. So possibly another definition of a Tradenet is a decentralized social [business] network.
