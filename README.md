@@ -51,7 +51,7 @@ Wave after wave, technology shifts come and shake the foundation of our existing
 This may sound harsh, but call for transparency is one of the most persistent themes in any recent appcoin project. Running business operations on-chain will ensure automated transparency, essential for investors, and hopefully will provide the basis for satisfying regulators.
   * Note that transparency is the main condition of a good Kickstarter campaign.
   * Note that publicly traded companies in US are required to satisfy transparency requirements by filing their performance (SEC Forms 10Q, 10K), officers buying/selling company stock (Forms 3,4,5 - so called insider trading), management changes (Form 8K), etc.
-  * Note that social profiles are now often used to build an online credit score. It is effective as faking the whole network of connections is extermely hard. Assessing entity's credibility is essential in global trade. On-chain transactions will not only provide an audit trail, but most importantly they will connects Tradenet nodes, building the first social [buisness] network.
+  * Note that social profiles are now often used to build an online credit score. It is effective as faking the whole network of connections is extermely hard. Assessing entity's credibility is essential in global trade. On-chain transactions will not only provide an audit trail, but most importantly they will connects Tradenet nodes, building the first social [business] network.
 
 4. **Programmable by you**. Literacy in reading and writing trading rules is essencial for Tradenet to remain trustless. Like basic literacy, it frees the trader from total dependency on intermediaries. But will people be able to program? A great web site [IFTTT](https://ifttt.com/) demonstrated that regular people can do it, given the right tools. We call this type of programming micro-scripting, and in our startup we playfully call these trading scripts - tradles.
 
@@ -192,4 +192,6 @@ Conclusion
 ==========
 Tradle is developing a protocol for running business operations on a distributed cloud powered by the blockchain. As transactions include multiple business participants, these relationships will begin to form a Tradenet of connected businesses. So possibly another definition of a Tradenet is a decentralized social [business] network. 
 
+Who is Tradle
+=============
 Tradle is a self-funded US company, registered in May 2014 in Delaware, and operating in New Jersey, close to New York City. Tradle brings to the table its team's prior intelectual capital in the form of distributed semantic B2B system (called Lablz, not yet open sourced), its [open source mobile web software](http://github.com/urbien/urbini) and its algo-trading marketplace Tradle, a mobile Web application, that is built on top of Lablz and Urbini, currently centralized and is being redesigned for decentralized operations based on the principles introduced in this paper.
