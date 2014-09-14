@@ -79,7 +79,7 @@ Future areas:
 
 Micro-scripting
 =================
-You-do-your-own-programming is Tradenet's law #4. Our approach is micro-scripting. We hope drastically simplified scripting will create the same effect as Twitter's micro-blogging - make it ridiculously easy to make and share new stuff, especially considering that we provide an app to tap-tap your way into a complete micro-script, a tradle.
+You-do-your-own-programming is Tradenet's law #4. Our approach is micro-scripting. We hope that drastically simplified scripting will create the same effect as Twitter's micro-blogging - make it ridiculously easy to make and share new stuff. To that extend Tradle provides an app to tap-tap your way into a complete micro-script, a tradle.
 
 Ethereum discussions are centered around the possibilities opening up with the Turing-completeness of their script. Yet here we present an simplified programming approach. How come? Will this simplistic programming model work for a large enough set of use cases? First of all, there is a cop out - you can write your own tradle code (today in Java, tomorrow in JavaScript, Python and other languages), and oracle will dutifully execute it in its sandbox. But we consider this freedom only as a way of experimenting with the new use cases before they are generalized to be programmed by non-developers. So what methods do we use to make micro-scripting feasible?
 
