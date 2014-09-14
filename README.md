@@ -60,6 +60,8 @@ This may sound harsh, but call for transparency is one of the most persistent th
 Examples of future Tradenet applications
 ========================================
 
+With the advent of bitcoin's decentralized model a new maxim was coined by David Johnston: [anything that can be decetralized, will be decentralized](http://www.johnstonslaw.org). Below are just a few examples of the apps that will take advantage of operating on-chain. At Tradle we are building the tools for making and running such apps.
+
 - **mutual CRM** - record my intercations with companies, like insurance providers, wireless operators, landlords, home repair, etc. Today we call them and they take notes, notes we never see. Notes they may deny they took next time we call. Tell me you were not infuriated by this at least once in your life. We could expand that warrantees, repair subsacriptions and other committments companies make to us, and also recording how they delivered on their commitments.
 - **supply chain management, order management, logistics**. This field requires multiple partners to be "on the same page", no go when each has its own internal system.
 - **personal and business accounting**, based on [tripple entry accounting](http://bitcoinmagazine.com/9969/triple-entry-bookkeeping-bitcoin/)
