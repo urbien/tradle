@@ -101,8 +101,8 @@ There is an ongoing research into the new chain-centric application stack. Some 
 Yet reality is not black and white. We believe that Tradenet computations will need to span all these tiers: 
 
 1. on chain (whether Ethereum, Mastercoin, etc. or side-chains), providing the basis for complex multi-party arrangments, going beyond the script in currrent Bitcoin's blockchain.
-2. on oracles, executing user defined rules
-3. on data nodes, for interfacing with existing web sites and legacy systems, for ensuring data security with proofs of existence, proofs of process, and for the dissemination of data/events to oracles, for working behind the corporate firewalls, for interfacing with company's wallets.
+2. on oracles, executing user defined rules. Oracles are run on untrusted nodes, run by miners (farmers in Maidsafe parlance).
+3. on data nodes, for interfacing with existing web sites and legacy systems, for ensuring data security with proofs of existence, proofs of process, and for the dissemination of data/events to oracles. Data nodes are working behind the firewalls and can interface with the wallets.
 4. on mobiles, to construct user interface and access device APIs.
 
 We believe that Tradenet storage will also need to be on all of these tiers:  
