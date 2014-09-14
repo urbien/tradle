@@ -92,7 +92,7 @@ Ethereum discussions are centered around the possibilities opening up with the T
 Problem space
 =============
 
-There is an ongoing research into the new chain-centric application stack. Some of the questions are:
+There is an ongoing research into a new chain-centric application stack. Some of the questions are:
 
 1. Do computations need to be performed by the chain, as in Ethereum or [separately from it](https://bitcointalk.org/index.php?topic=277389.0), with chain only incorporating the proof of computation's validity?
 2. Does storage need to be provided by the chain, as in Ethereum, or separately from it, as in Maidsafe?
