@@ -100,7 +100,7 @@ In the bitcoin world these apps are traditionally called Oracles. Vitalik in [Et
 
 What are the requirements for the new chain-centric application stack? Some of the questions are:
 
-1. Do computations need to be performed by the chain, as in Ethereum or [separately from it](https://bitcointalk.org/index.php?topic=277389.0), with chain only incorporating the proof of computation's validity?
+1. Do computations need to be performed by the chain, as in Ethereum or [separately from it](https://bitcointalk.org/index.php?topic=277389.0), with the chain only incorporating a proof of computation's validity?
 2. Does storage need to be provided by the chain, as in Ethereum, or separately from it, as in [MaidSafe](http://maidsafe.net/)?
 3. How to incorporate external data from Web sites, Web APIs, legacy systems?
 
