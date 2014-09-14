@@ -187,4 +187,6 @@ At this point tradles will receive events as input parameters and return true or
 
 Conclusion
 ==========
-Tradle is developing a protocol for running business operations on a distributed cloud powered by the blockchain. As transactions include multiple business participants, these relationships will begin to form a Tradenet of connected businesses. So possibly another definition of a Tradenet is a decentralized social [business] network.
+Tradle is developing a protocol for running business operations on a distributed cloud powered by the blockchain. As transactions include multiple business participants, these relationships will begin to form a Tradenet of connected businesses. So possibly another definition of a Tradenet is a decentralized social [business] network. 
+
+Tradle is a self-funded US company, registered in May 2014 in Delaware, and operating in New Jersey. Tradle brings to the table its team's prior intelectual capital in the form of distributed semantic B2B system (called Lablz, not open sourced), its [open source mobile web software](http://github.com/urbien/urbini) and its algo-trading marketplace Tradle, an application, that is built on top of Lablz and Urbini, currently centralized and is being redesigned for decentralized operations based on the principles introduced in this paper.
