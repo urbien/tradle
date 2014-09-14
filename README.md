@@ -83,7 +83,7 @@ You-do-your-own-programming is Tradenet's law #4. Our approach is micro-scriptin
 
 Ethereum discussions are centered around the possibilities opening up with the Turing-completeness of their script. Yet here we present an simplified programming approach. How come? Will this simplistic programming model work for a large enough set of use cases? First of all, there is a cop out - you can write your own tradle code (today in Java, tomorrow in JavaScript, Python and other languages), and oracle will dutifully execute it in its sandbox. But we consider this freedom only as a way of experimenting with the new use cases before they are generalized to be programmed by non-developers. So what methods do we use to make micro-scripting feasible?
 
-- **technicals** - we borrow this term from algo-trading, where the raw value, like the price of the stock is processed using some algorithm (like moving average), and the result, called a technical, can be used in a rule in lieu of the raw value. At the moment we have built-in set of such functions, but in the future we will provide a plugin mechanism, so that this library can grow.
+- **technicals** - we borrow this term from algo-trading, where the raw value, like the price of the stock is processed using some algorithm (like moving average), and the result, called a technical, can be used in a rule in lieu of the raw value. At the moment we have a built-in set of such functions, but in the future we will provide a plugin mechanism, so that this library can grow.
 - **variables** - like in an IFTTT recipe, all tradle's input events become variables. Variables can be used to fill in properties of tradle's actions. In algo-trading the action is a trade, and one of its properties is a ticker for the financial product to buy/sell. This ticker symbol can be filled automatically, for example from an event that catches anomaly in the specific stock price, or a crypto-currency pair.
 - **storage** - allows user to save a variable on a tradle, and use it in tradle rules next time tradle is run. Currently we put several built-on variables into storage automatically, but will expand that to any variables.
 - **chaining** - tradle firing (or its storage changes) can serve as an input into another tradle.
@@ -92,8 +92,13 @@ Ethereum discussions are centered around the possibilities opening up with the T
 
 Problem space
 =============
+According to bitcoin core developer Gavin Andersen off-chain data and computations is the next bitcoin frontier:  ["all of the really interesting complex contracts I can think of require data from outside the blockchain"](http://gavintech.blogspot.com/2014/06/bit-thereum.html)
 
-So what are the requirements for the new chain-centric application stack? Some of the questions are:
+Ethereum captured people's imagination on the potential of extended on-chain computations with a second highest crowdfunding in history - a cool $15M. Ethereum's innovations such as per-contract storage, arbitrary scripts, pay forward computations (gas), etc., allow to implement a whole new class of apps. Yet, there is a much larger class of apps that will emerge between the web/cloud and the chain.
+
+In the bitcoin world these apps are traditionally called Oracles. Vitalik in [Ethereum and Oracles](https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/) blog writes: "The most common case that will appear in reality is the case of external data".
+
+What are the requirements for the new chain-centric application stack? Some of the questions are:
 
 1. Do computations need to be performed by the chain, as in Ethereum or [separately from it](https://bitcointalk.org/index.php?topic=277389.0), with chain only incorporating the proof of computation's validity?
 2. Does storage need to be provided by the chain, as in Ethereum, or separately from it, as in [MaidSafe](http://maidsafe.net/)?
@@ -113,13 +118,7 @@ We believe that Tradenet storage will also need to be on all of these tiers:
 3. *on data nodes*, - this storage tier uses a more traditional richer database (whether SQL or NoSQL) that is formed by syncing data from the chain + oracles. This database is suitable for searching, browsing, filtering, etc. to enable business operations, and will need to support massive data archives, suitable for analytics. This storage is also used for syncing with the existing Web sites and legacy systems.
 4. *on mobiles*, to keep local database for disconnected operations. This db is automatically synced with the chain, oracles and data nodes.
 
-According to bitcoin core developer Gavin Andersen off-chain data and computations is the next bitcoin frontier:  ["all of the really interesting complex contracts I can think of require data from outside the blockchain"](http://gavintech.blogspot.com/2014/06/bit-thereum.html)
-
-Ethereum captured people's imagination on the potential of extended on-chain computations with a second highest crowdfunding in history - a cool $15M. Ethereum's innovations such as per-contract storage, arbitrary scripts, pay forward computations (gas), etc., allow to implement a whole new class of apps. Yet, there is a much larger class of apps that will emerge between the web/cloud and the chain.
-
-In the bitcoin world these apps are traditionally called Oracles. Vitalik in [Ethereum and Oracles](https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/) blog writes: "The most common case that will appear in reality is the case of external data".
-
-There has been a lot of discussions on oracles but only recently several companies released implementations: Ripple's Codius.org, Orisi, RealityKeys, etc. (Note that Codius's whitepaper refers to several more oracles systems). Each implementation focuses on a subset of the functions listed below:
+There has been a lot of discussions on oracles in the past couple of years, but only recently several companies released implementations: Ripple's Codius.org, Orisi, RealityKeys, etc. (Note that Codius's whitepaper refers to several more oracles systems). Each implementation focuses on a subset of the functions listed below:
 
 * sandboxing: this technique protects host machines, e.g. a miner, from untrusted and possibly misbehaving contracts. Ripple's new [Codius.org](http://codius.org) uses NaCl - google native client. A Rackspace-sponsored [ZeroVM](http://www.zerovm.org/), an offshoot of the NaCl project, could be used instead. Both ZeroVM and NaCl provide a deterministic environment to ensure that identical computations achieve identical results at identical expense. This comes at a price, as some things are intentionally blocked in this environment, like access to the outside world. Another, much more flexible, sandboxing solution [Docker](https://www.docker.com/) has recently become very popular, but it only provides deterministic deployment, not execution. In addition, both NaCl and Docker sandboxes can run inside a full Virtual Machine, like VirtualBox to fully isolate the host machine from possibly misbehaving smart contracts.
 
