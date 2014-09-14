@@ -157,9 +157,9 @@ Oracles perform the following functions:
 Tradenet: oracles and blockchain
 ================================
 
-Each tradle has trade(s), which define what assets to trade, in what quantities and at what prices. The tradle's code does not have access to this information. Neither do oracles. Oracles tell user's wallets to execute a trade. Wallets have all the keys to access user accounts and sign transactions.
+Each tradle has actions. In case of algo-trading actions define what assets to trade, in what quantities and at what prices. The tradle's code does not have access to this information. Neither do oracles. In order to execute actions, oracles sends the transaction to the data nodes, which have access to the wallets and the actions. 
 
-It is not yet clear how to solve the following problem: to communicate with wallets oracles will need API keys, and it would be totally insecure to give oracle those keys. May be an approach could look something like this: oracle hashes tradle's decision (combined with the hashes of inputs, and hash of oracle's code, and hash of the tradle's code) and puts it in a box. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Another problem is that wallet code needs to get modified for that.
+There might exist a crypto-scheme which does not require two-steps and will allow oracles to initiate actions. It is not yet clear how to solve the following problem: to communicate with wallets oracles will need API keys, and it would be totally insecure to give oracle those keys. May be an approach could look something like this: oracle hashes tradle's decision (combined with the hashes of inputs, and hash of oracle's code, and hash of the tradle's code) and puts it into a crypto box. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Standard wallets do not have this capability, so we will probably look at the wallets that allow custom plugins, like [Omniwallet](https://github.com/mastercoin-MSC/omniwallet).
 
 New application stack from mobile point of view
 ===============================================
