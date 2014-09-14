@@ -125,9 +125,9 @@ Tradle will use the mechinisms above and add two innovations to make smart contr
 Tradenet: oracles and data nodes 
 ============================================================
 
-The Tradle app compiles a tradle into JavaScript code, which is executed by an oracle. Oracles subscribe to events from Data nodes and plug them into tradle code. This way tradle code can be simple and verifiable.
+Tradle app compiles a tradle into Java code, which is executed by the oracle. Oracles subscribe to events from Data nodes and pass them to tradle code. This way tradle code can be simple and verifiable.
 
-* Subscription. Specifically, oracles read tradle definitions and sends tradle URIs as subscription requests to Data nodes, and wait for events on websockets. A tradle may have several input indicators, so oracles will get subscribed to several event types. To compensate for reboots and re-connections, in a subscription request oracles say: give me new 'if-modified since' for each tradle indicator.
+* Subscription. Specifically, oracles send tradle URIs as subscription requests to Data nodes, and wait for events on WebSockets. A tradle may have several input indicators, so oracles will get subscribed to several event types. To compensate for reboots and re-connections, in a subscription request oracles say: give me new 'if-modified since' for each tradle indicator.
 
 * Verification. Data Server publishes every event with its hash-URI and sends it to Notary Chains. Oracles verify each event's hash-URI with Notary Chains. 
 
