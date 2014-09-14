@@ -98,17 +98,19 @@ There is an ongoing research into the new chain-centric application stack. Some 
 2. Does storage need to be provided by the chain, as in Ethereum, or separately from it, as in Maidsafe?
 3. How to incorporate external data from Web sites, Web APIs, legacy systems?
 
-We believe that in a Tradenet computations will need to be on all of these tiers: 
+Yet reality is not black and white. We believe that in a Tradenet computations will need to be on all of these tiers: 
 
 1. on chain (whether Ethereum, Mastercoin, etc. or side-chains), providing the basis for complex multi-party arrangments, going beyond the script in currrent Bitcoin's blockchain.
 2. on oracles, executing user defined rules
-3. on data nodes, for interfacing with existing web sites and legacy systems, for ensuring data security with proofs of existence, proofs of process, and for dissemination of data/events to oracles.
+3. on data nodes, for interfacing with existing web sites and legacy systems, for ensuring data security with proofs of existence, proofs of process, and for the dissemination of data/events to oracles.
+4. on mobiles, to construct user interface and access device's sensors
 
 We believe that in a Tradenet storage will also need to be on all of these tiers:  
 
 1. *on chain*, - for proofs of consensus, existence, value, etc., This does not mean Ethereum's storage is not a good idea, it could be extremely useful for creating stateful smart contracts, but it is not suitable for much larger volumes of application data that also need to be secured.
 2. *on oracles* (utilizing extremely simple, fast and extremely scalable key-value data stores) as a form of a transaction log, coordinated by the chain. Unlike public chain data, this type of data requires security (object level and property level), bandwidth, low latency, hardware I/O characterists, that regular bitcoin mining nodes will probably not meet. Maidsafe's model of grading farmer's nodes is more suitable here. Note that in Ethereum contract's storage is open and public, which is unsuitable for business data.
 3. *on data nodes*, - for syncing data from the chain and the oracles into a searchable and browsable database, suitable for decision support and for massive data archives, suitable for analytics; for interfacing with existing Web sites and legacy systems; for ensuring data security with proofs of existence, proofs of process; for the dissemination of data/events to oracles; for working behind the corporate firewalls; for interfacing with company's wallets.
+4. *on mobiles*, to keep local database for disconnected operations. This db is automatically synced with the chain, oracles and data nodes.
 
 According to bitcoin core developer Gavin Andersen off-chain data and computations is the next bitcoin frontier:  ["all of the really interesting complex contracts I can think of require data from outside the blockchain"](http://gavintech.blogspot.com/2014/06/bit-thereum.html)
 
