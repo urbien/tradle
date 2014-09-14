@@ -55,7 +55,7 @@ This may sound harsh, but call for transparency is one of the most persistent th
 
 4. **Programmable by you**. Literacy in reading and writing trading rules is essencial for Tradenet to remain trustless. Like basic literacy, it frees the trader from total dependency on intermediaries. But will people be able to program? A great web site [IFTTT](https://ifttt.com/) demonstrated that regular people can do it, given the right tools. We call this type of programming micro-scripting, and in our startup we playfully call these trading scripts - tradles.
 
-5. **Self-governed**. Conflict resolution will be based on programmed trade rules, agreed upon upfront. For conflict resolution these programs will use escrow, fidelity bonds, insurance, etc., in lieu of legal actions, in the style of [lex mercatoria](http://bitcoinism.blogspot.ca/2013/12/lex-cryptographia.html). It is especially important in global trade where legal systems are incompatible, and in case of developing countries, either under-developed or corrupt.
+5. **Self-governed**. Conflict resolution will be based on programmed trade rules, written and read directly by participants and executed automatically by the system. For conflict resolution these programs will use monetary instruments like escrow, fidelity bonds, insurance, etc., in lieu of legal actions, in the style of [lex mercatoria](http://bitcoinism.blogspot.ca/2013/12/lex-cryptographia.html). It is especially important in global trade where legal systems are incompatible, and in case of developing countries, either under-developed or often corrupt.
 
 Examples of future Tradenet applications
 ========================================
