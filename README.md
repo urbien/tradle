@@ -75,7 +75,7 @@ Future areas:
 - **securitization of everything**, [rent out your backyard for farming](http://www.farmandranchliving.com/2007/DJ07/feature06.asp), [your roof for panels](http://collabfinder.com/project/238/sollardollar-is-a-crowdfunding-platform-for-solar), etc.
 - **discovering e-commerce opportunities** - auto-comparative shopping
 - **e-commerce syndication** (after market integration into e-commerce site)
-- **IoT**: automatic auctions between cars and garages, etc.
+- **IoT**: automatic auctions between cars and garages, programming doors locks for renting, programming lights to as theft deterrent when the host is absent, fridge weight sensors for tracking and ordering groceries, dairy, ice cream, etc.
 
 Micro-scripting
 =================
