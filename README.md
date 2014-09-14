@@ -146,7 +146,7 @@ Modern mobile apps use device's local database as their primary database. Such a
 
 1. *Chain becomes a master db*. Cloud databases become slave databases of the chain. Althoug chain is a 'master of record', it not a database which can be used by the apps. The solution, common today, it to have a blockchain explorer to read transactions from the chain and create a browsable, searchable database. There is even a startup, [Chain](http://chain.com) that offers such services. But for the chain to perform a function of master db, it needs to be enhanced, fronted by the oracles. Oracle will make decisions, enrich transactions, perhaphs generate sub-transactions and send them to the underlying blockchain, like Ethereum, Mastercoin + Maidsafe, Notary Chain, etc. with richer semantics and storage capabilities.
 
-2. *Apps bootstrap the chain*. App's local db becomes a slave of a chain instead of a slave of a cloud db. As an optimization, apps could bootstrap from a cloud db, but verify all the data and app assets with the chain. New transactions are sent directly to the chain, that is when user fills out some form, buys something, or makes some other choice by tapping the screen, the app will create a transaction and send it to the chain.
+2. *Apps bootstrap from the chain*. App's local db becomes a slave of a chain instead of a slave of a cloud db. As an optimization, apps could bootstrap from a cloud db, but verify all the data and app assets with the chain. New transactions are sent directly to the chain, that is when user fills out some form, buys something, or makes some other choice by tapping the screen, the app will create a transaction and send it to the chain.
 
 Bootstrapping:
 `[Mobile] App <-- cloud database <-- chain`
