@@ -154,12 +154,12 @@ Oracles perform the following functions:
 
 * Synchronization. Each Data node may provide different indicators. Indicator URIs reflect the nodes they are coming from, e.g. http://server1.tradle.io. Thus oracles may send subscriptions to several Data nodes (if all indicators are on the same server, it sends one request with 3 indicators in it). Events in each indicator come at different times. Oracles save retrieved indicators into their local databases. This way when any event arrives, oracles can call tradle code with all the values of other indicators it saved before.
 
-Tradenet: oracles and blockchain
+Tradenet: oracles and the blockchain
 ================================
 
-Each tradle has actions. In case of algo-trading actions define what assets to trade, in what quantities and at what prices. The tradle's code does not have access to this information. Neither do oracles. In order to execute actions, oracles sends the transaction to the data nodes, which have access to the wallets and the actions. 
+Each tradle has actions. In case of algo-trading, the actions define what assets to trade, in what quantities and at what prices. A tradle's code does not have access to this information. Neither do oracles. In order to execute actions, oracles send transactions to data nodes, which have access to the wallets and the actions.
 
-There might exist a crypto-scheme which does not require two-steps and will allow oracles to initiate actions. It is not yet clear how to solve the following problem: to communicate with wallets oracles will need API keys, and it would be totally insecure to give oracle those keys. May be an approach could look something like this: oracle hashes tradle's decision (combined with the hashes of inputs, and hash of oracle's code, and hash of the tradle's code) and puts it into a crypto box. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Standard wallets do not have this capability, so we will probably look at the wallets that allow custom plugins, like [Omniwallet](https://github.com/mastercoin-MSC/omniwallet).
+This scheme is not perfect. There might exist a crypto-scheme which does not require two steps and will allow oracles to initiate actions, without knowing what those actions are. Please let us know what crypt scheme we should use. Another problem is that to communicate with the wallets oracles will need wallets API keys, and it would be totally insecure to give oracle those keys. May be an approach could look something like this: oracle hashes tradle's decision (combined with the hashes of inputs, and hash of oracle's code, and hash of the tradle's code) and puts it into a crypto box. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Standard wallets do not have this capability, so we will need to look to at the wallets that allow custom plugins, like [Omniwallet](https://github.com/mastercoin-MSC/omniwallet).
 
 New application stack from mobile point of view
 ===============================================
