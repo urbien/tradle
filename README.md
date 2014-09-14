@@ -92,7 +92,21 @@ Ethereum discussions are centered around the possibilities opening up with the T
 Problem space
 =============
 
-We believe that in a Tradenet computations will be on these tiers: 1) on chain (whether Ethereum, Mastercoin, etc. or side-chains), providing the basis for complex multi-party arrangments beyond multi-sig, 2) on oracles, executing user defined rules, and 3) on data nodes, for interfacing with existing web sites and legacy systems, for ensuring data security with proofs of existence and for dissemination of data/events to oracles.
+There is an ongoing research into the new chain-centric application stack. Some of the questions are
+1. Do computations need to be performed by the chain, as in Ethereum or [separately from it](https://bitcointalk.org/index.php?topic=277389.0), with chain only incorporating the proof of computation's validity?
+2. Does storage need to be provided by the chain, as in Ethereum, or separately from it, as in Maidsafe?
+3. How to incorporate external data from Web sites, Web APIs, legacy systems?
+
+We believe that in a Tradenet computations will need to be on all of these tiers: 
+
+1. on chain (whether Ethereum, Mastercoin, etc. or side-chains), providing the basis for complex multi-party arrangments, going beyond the script in currrent Bitcoin's blockchain.
+2. on oracles, executing user defined rules
+3. on data nodes, for interfacing with existing web sites and legacy systems, for ensuring data security with proofs of existence, proofs of process, and for dissemination of data/events to oracles.
+
+We believe that in a Tradenet storage will also need to be on all of these tiers:  
+1. on chain, for proofs of consensus, existence, value, etc.
+2. on oracles (utilizing extremely simple, fast and extremely scalable key-value data stores) as a form of transaction log, cooredinated by the chain. Unlike public chain data, this type of data requires security (object level and property level), bandwidth, low latency, hardware I/O characterists, that regular mining nodes do not meet. Note that in Ethereum contract's storage is public, which is unsuitable for business data.
+3. on data nodes, for massive data archives suitable for analytics, for interfacing with existing web sites and legacy systems, for ensuring data security with proofs of existence, proofs of process, and for dissemination of data/events to oracles.
 
 According to bitcoin core developer Gavin Andersen off-chain data and computations is the next bitcoin frontier:  ["all of the really interesting complex contracts I can think of require data from outside the blockchain"](http://gavintech.blogspot.com/2014/06/bit-thereum.html)
 
