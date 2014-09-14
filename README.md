@@ -145,6 +145,9 @@ Tradenet: oracles and data nodes
 
 Tradle app compiles a tradle into Java code, which is executed by the oracle. Oracles subscribe to events from Data nodes and pass them to tradle code. This way tradle code can be simple and verifiable.
 
+Oracles engage in bi-directional communications with the data nodes. One flow we already described in mobile apps architecture section, where user is the source of new transactions. The flow in the opposite directions is originated in the extenal world, as changes in external Web sites, such as government open data, exchanges, and apps that generate evens via their Web APIs. Data nodes use data modeling framework to make sense of incoming data and special adapters to read the data from all those disparate sources. Data nodes then present data to oracles in a unified way. 
+Oracles perform the following functions:
+
 * Subscription. Specifically, oracles send tradle URIs as subscription requests to Data nodes, and wait for events on WebSockets. A tradle may have several input indicators, so oracles will get subscribed to several event types. To compensate for reboots and re-connections, in a subscription request oracles say: give me new 'if-modified since' for each tradle indicator.
 
 * Verification. Data Server publishes every event with its hash-URI and sends it to Notary Chains. Oracles verify each event's hash-URI with Notary Chains. 
