@@ -172,16 +172,20 @@ New application stack from mobile point of view
 ===============================================
 Modern mobile apps use a device's local database as their primary database (this is also true of Web apps that use IndexedDB or WebSQL, see for example our own [Urbini](http://github.com/urbien/urbini). Such apps paint the screen from the local db and they record user input by creating transactions in the local db. Synchronization of data with the cloud db happens in the background. This flow has evolved from the "always connected" flow of Web apps due to the necessity of supporting offline/disconnected operations. Turns out this flow is a great enabler for on-chain apps, as transaction coordination via the chain is slow, yet having a local db on a mobile device compensates for that. For simplicity in this chapter we will assume that the chain is a smart chain = oracle + blockchain, and the cloud db is the same as the data node.
 
-1. *Chain becomes a master db*. Cloud databases become slave databases of the chain. Although the chain is a 'master of record', it is not a database which can be used by apps. The solution, common today, it to have a blockchain explorer to read transactions from the chain and create a browsable, searchable database. There is even a startup, [Chain](http://chain.com), that offers such services. But for the chain to perform the function of the master db, it needs to be enhanced, fronted by the oracles. Oracles will make decisions, enrich transactions, perhaps generate sub-transactions and send them to the underlying blockchain, like Ethereum, Mastercoin + MaidSafe, [Notary Chains](http://www.notarychains.com/), etc. with richer semantics and storage capabilities.
+1. *Chain becomes a master db*. In this setup cloud db becomes a slave db to the chain. Although the chain is a 'master of record', it is not a database which can be used by apps. It is similar to how blockchain explorers, like [blockchain.info](https://blockchain.info/), work today - they monitor transactions on blockchain and create a browsable, searchable database. There is even a startup, [Chain](http://chain.com), that offers such services. But for the chain to perform the function of the master db for any kind of business transactions, it needs to be enhanced, fronted by the oracles. Oracles will make decisions, enrich transactions, perhaps generate sub-transactions and send them to the underlying blockchain. The underlying blockchain could be [Ethereum](https://www.ethereum.org/), [Mastercoin](http://www.mastercoin.org/) + [MaidSafe](http://maidsafe.net/maidsafe-network-platform-libraries), [Notary Chains](http://www.notarychains.com/), etc. with richer semantics and storage capabilities.
 
 2. *Apps bootstrap from the chain*. An app's local db becomes a slave to a chain instead of a slave to a cloud db. As an optimization, apps could bootstrap from a cloud db, but verify all the data and app assets with the chain. New transactions are sent directly to the chain, that is when a user fills out some form, buys something, or makes some other choice by tapping the screen, the app will create a transaction and send it to the chain.
 
 App bootstrapping:
+
 `App <-- cloud database <-- chain`
+
 or
+
 `App <-- chain`
 
-New transactions:
+New  transactions:
+
 `App --> chain`
 
 (TBD: a good diagram)
