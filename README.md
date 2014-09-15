@@ -90,8 +90,8 @@ Ethereum discussions are centered around the possibilities opening up with the T
 - **profiles** - like bluetooth profiles this allows to create a domain-specific context. Profile will have their own set of technicals, types of rules (e.g. in algo-trading rule _a > b_ will have a extra clause _and sustained for 1 day_), choices of actions (e.g. in algo-trading it is an order to buy/sell and in supply chain it could be _pay the invoice_, etc. Examples of profiles: algo-trading profile (the only one we have at this point), company formation, funding, b2c, b2b, a legal agreement (smart contract), etc.
 - **models** - models are used pervasively in modern apps (MVC). But rarely models are used as first class citizen. Over years we have developed a methodology of making apps simpler by arranging code around models.
 
-Problem space
-=============
+Application stack for Bitcoin 2.0
+=================================
 According to bitcoin core developer Gavin Andersen off-chain data and computations is the next bitcoin frontier:  ["all of the really interesting complex contracts I can think of require data from outside the blockchain"](http://gavintech.blogspot.com/2014/06/bit-thereum.html)
 
 Ethereum captured people's imagination on the potential of extended on-chain computations with a second highest crowdfunding in history - a cool $15M. Ethereum's innovations such as per-contract storage, arbitrary scripts, pay forward computations (gas), etc., allow to implement a whole new class of apps. Yet, there is a much larger class of apps that will emerge between the web/cloud and the chain.
