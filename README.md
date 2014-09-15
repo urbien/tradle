@@ -178,6 +178,7 @@ Modern mobile apps use a device's local database as their primary database (this
 
 Bootstrapping:
 `[Mobile] App <-- cloud database <-- chain`
+
          `App <-- chain`
 
 New transactions:
