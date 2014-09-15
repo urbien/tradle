@@ -157,7 +157,7 @@ Oracles perform the following functions:
 Tradenet: oracles and the blockchain
 ================================
 
-Each tradle has actions. In case of algo-trading, the actions define what assets to trade, in what quantities and at what prices. A tradle's code does not have access to this information. Neither do oracles. In order to execute actions, oracles send transactions to data nodes, which have access to the wallets and the actions.
+Each tradle has actions. In case of algo-trading, actions define what assets to trade, in what quantities and at what prices. A tradle's code does not have access to this information. Neither do oracles. In order to execute actions, oracles send transactions to data nodes, which have access to the wallets and the actions.
 
 This scheme is not perfect. There might exist a crypto-scheme which does not require two steps and will allow oracles to initiate actions, without knowing what those actions are. Please let us know what crypt scheme we should use. Another problem is that to communicate with the wallets oracles will need wallets API keys, and it would be totally insecure to give oracle those keys. May be an approach could look something like this: oracle hashes tradle's decision (combined with the hashes of inputs, and hash of oracle's code, and hash of the tradle's code) and puts it into a crypto box. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Standard wallets do not have this capability, so we will need to look to at the wallets that allow custom plugins, like [Omniwallet](https://github.com/mastercoin-MSC/omniwallet).
 
