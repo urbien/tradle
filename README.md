@@ -1,4 +1,4 @@
-sTradle
+Tradle
 ======
 Tradle is here to answer a question: what does it mean to operate a business on-chain?
 
