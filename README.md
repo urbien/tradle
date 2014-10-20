@@ -169,7 +169,7 @@ Each tradle has actions. In the case of algo-trading, actions define what assets
 
 This scheme is not perfect. There might exist a crypto scheme which does not require two steps and will allow oracles to initiate actions, without knowing what those actions are. Please let us know what crypto scheme we should use. 
 
-Another problem is that to communicate with the wallets, oracles will need wallets' API keys, and it would be totally insecure to give oracles those keys. May be an approach could look something like this: an oracle hashes a tradle's decision (combined with the hashes of inputs, a hash of the oracle's code, and a hash of the tradle's code) and puts it into a crypto box. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Standard wallets do not have this capability, so we will need to look to at wallets that allow custom plugins, like [Omniwallet](https://github.com/mastercoin-MSC/omniwallet).
+Another problem is that to communicate with the wallets, oracles will need wallets' API keys, and it would be totally insecure to give oracles those keys. May be an approach could look something like this: an oracle hashes a tradle's decision (combined with the hashes of inputs, a hash of the oracle's code, and a hash of the tradle's code) and puts it into a crypto box. Wallet picks final hash from this box and proceeds to execute trades on a tradle. Standard wallets do not have this capability, so we will need to look at wallets that allow custom plugins, like [Omniwallet](https://github.com/mastercoin-MSC/omniwallet).
 
 New application stack from mobile point of view
 ===============================================
