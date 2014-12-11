@@ -7,6 +7,8 @@ Tradle's vision
 
 An emergent global Tradenet, based on bitcoin technology, where trade of the planet's digitized assets is programmed by you, and trade fairness and compliance can be assured with minimal governance. For implementation specififics, see the [Wiki](https://github.com/urbien/tradle/wiki).
 
+This whitepaper is an attempt to look into the future, 5-10 years from now.
+
 What Tradenet will do
 ======================
 
@@ -19,7 +21,9 @@ As new tools emerge, anyone will be able to program the trade in Tradenet.
 Motivation
 ==========
 
-I have been fascinated with the concept of Tradenet since I first heard it from [Cameron Gray](http://about.me/cameron.john.gray) in his [Bitcoin Magazine article](http://bitcoinmagazine.com/15021/sovereignty-2-0/). Cameron defines Tradenet as "quantify anything of value so that it can be traded in a decentralized highly competitive frictionless market". His vision brings to mind traders from [Vernor Vinge's Deepness In the Sky](http://en.wikipedia.org/wiki/A_Deepness_in_the_Sky), who used open information as a basis for galactic trade. Thus I would define Tradenet as an open-ledger world commerce run on open source, or simply a network of businesses operating on-chain. As commerce becomes a first class citizen on the Internet, it will create stability and livelihood for billions of people engaged in a global trade, not war.
+I have been fascinated with the concept of Tradenet since I first heard it from [Cameron Gray](http://about.me/cameron.john.gray) in his [Bitcoin Magazine article](http://bitcoinmagazine.com/15021/sovereignty-2-0/). Cameron defines Tradenet as "quantify anything of value so that it can be traded in a decentralized highly competitive frictionless market". His vision brings to mind the traders from [Vernor Vinge's Deepness In the Sky](http://en.wikipedia.org/wiki/A_Deepness_in_the_Sky), who used open information as a basis for galactic trade. 
+
+I would define Tradenet as an open-ledger world commerce run on open source, or simply a network of businesses operating on-chain. As commerce becomes first class citizen on the Internet, it will create stability and livelihood for billions of people engaged in a global trade, not war.
 
 The Internet was born decentralized, but most financially successful sites have grown into monopolies. The dire consequences of this centralization have come into focus with [the theft of 100M credit cards from Target in 2013](http://www.theguardian.com/business/2013/dec/19/target-breach-credit-card-accounts) and became unbearable after we learned of [mass surveilance and government hacking into all aspects of our lives](http://www.democracynow.org/2014/3/17/snowden_docs_expose_how_the_nsa). In the bitcoin world, whenever a [centralized solution like Mt. Gox emerged](https://medium.com/@austinhill/of-all-things-believe-in-bitcoin-f116bd16f8e2) on top of a decentralized blockchain, it immediately [attracted wrongdoing](http://arstechnica.com/business/2014/02/having-lost-463-million-in-bitcoins-mtgox-files-for-bankruptcy-protection/) and [regulators](http://cointelegraph.com/news/112034/mitigating-the-legal-risks-of-issuing-securities-on-a-cryptoledger). In our current finance system [systemic abuse of trust became a norm](https://twitter.com/tradles/status/511002085353984000).
 
