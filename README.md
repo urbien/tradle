@@ -7,7 +7,7 @@ Tradle's vision
 
 An emergent global Tradenet, based on bitcoin technology, where trade of the planet's digitized assets is programmed by you, and trade fairness and compliance can be assured with minimal governance. For the implementation specififics, see the [Wiki](https://github.com/urbien/tradle/wiki/A-starting-point).
 
-This whitepaper is an attempt to look into the future, 5-10 years from now.
+This whitepaper is an attempt to look into the future, 5-10 years from now. Feel free to blame any errors on the imprefections of the crystal ball tech.
 
 What Tradenet will do
 ======================
