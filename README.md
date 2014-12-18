@@ -21,7 +21,7 @@ As new tools emerge, anyone will be able to program the trade in Tradenet.
 Motivation
 ==========
 
-I have been fascinated with the concept of Tradenet since I first heard it from [Cameron Gray](http://about.me/cameron.john.gray) in his [Bitcoin Magazine article](http://bitcoinmagazine.com/15021/sovereignty-2-0/) (later I heard Tradenet term [used by Mike Hearn](John Henderson)). Cameron defines Tradenet as "quantify anything of value so that it can be traded in a decentralized highly competitive frictionless market". His vision brings to mind the traders from [Vernor Vinge's Deepness In the Sky](http://en.wikipedia.org/wiki/A_Deepness_in_the_Sky), who used open information as a basis for galactic trade. 
+I have been fascinated with the concept of Tradenet since I first heard it from [Cameron Gray](http://about.me/cameron.john.gray) in his [Bitcoin Magazine article](http://bitcoinmagazine.com/15021/sovereignty-2-0/) (later I heard Tradenet term [used by bitcoin core developer Mike Hearn](John Henderson)). Cameron defines Tradenet as "quantify anything of value so that it can be traded in a decentralized highly competitive frictionless market". His vision brings to mind the traders from [Vernor Vinge's Deepness In the Sky](http://en.wikipedia.org/wiki/A_Deepness_in_the_Sky), who used open information as a basis for galactic trade. 
 
 I would define Tradenet as an open-ledger world commerce run on open source, or simply a network of businesses operating on-chain. As commerce becomes first class citizen on the Internet, it will create stability and livelihood for billions of people engaged in a global trade, not war.
 
